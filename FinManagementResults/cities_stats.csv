@@ -1,0 +1,463 @@
+,adm1,city,count,country,lat,lng
+0,Kyiv city,Kyiv,5065.0,Ukraine,50.4063969,30.676372100000002
+1,Lviv Oblast,Lviv,1086.0,Ukraine,49.819931,23.9695718
+2,Kharkiv Oblast,Kharkiv,444.0,Ukraine,49.9935,36.230383
+3,Odessa Oblast,Odessa,384.0,Ukraine,46.375272499999994,30.7164464
+4,Dnipropetrovsk Oblast,Dnepropetrovsk,321.0,Ukraine,48.403472,35.136744
+5,Ivano-Frankivs'ka oblast,Ivano-Frankivsk,183.0,Ukraine,48.922633000000005,24.711117
+6,Ternopil's'ka oblast,Ternopil,179.0,Ukraine,49.553517,25.594767
+7,Zaporiz'ka oblast,Zaporizhia,163.0,Ukraine,47.8388,35.139567
+8,Vinnyts'ka oblast,Vinnytsia,142.0,Ukraine,49.233083,28.468217
+9,Волынская,Lutsk,137.0,Ukraine,50.743512,25.345957000000002
+10,Zhytomyrs'ka oblast,Zhytomyr,107.0,Ukraine,50.25465,28.658666999999998
+11,Sums'ka oblast,Sumy,102.0,Ukraine,50.9077,34.7981
+12,Rivnens'ka oblast,Rivne,97.0,Ukraine,50.6199,26.251617
+13,Cherkas'ka oblast,Cherkasy,96.0,Ukraine,49.444433000000004,32.059767
+14,Chernivets'ka oblast,Chernivtsi,94.0,Ukraine,48.2920787,25.9358367
+15,Dnipropetrovsk Oblast,Kryvyi Rih,91.0,Ukraine,47.910483,33.391783000000004
+16,Donetsk Oblast,Donetsk,87.0,Ukraine,47.970924,37.770821000000005
+17,Mykolaivs'ka oblast,Mykolaiv,81.0,Ukraine,46.975033,31.994583000000002
+18,Kharkiv Oblast,Poltava,73.0,Ukraine,49.555848100000006,37.2575485
+19,Khersons'ka oblast,Kherson,67.0,Ukraine,46.635417,32.616867
+20,Zakarpats'ka oblast,Uzhhorod,62.0,Ukraine,48.6208,22.287882999999997
+21,Khmel'nyts'ka oblast,Khmelnytskyi,51.0,Ukraine,49.422983,26.987133
+22,Kyivs'ka oblast,Brovary,49.0,Ukraine,50.495925,30.7604729
+23,Poltavs'ka oblast,Kremenchuk,45.0,Ukraine,49.065783,33.410033
+24,Chernihivs'ka oblast,Chernihiv,44.0,Ukraine,51.4982,31.28935
+25,Dnipropetrovsk Oblast,Dniprodzerzhyns'k,35.0,Ukraine,48.523117,34.613683
+26,Kirovohrads'ka oblast,Kirovohrad,32.0,Ukraine,48.50793300000001,32.262316999999996
+27,Donetsk Oblast,Mariupol',29.0,Ukraine,47.097133,37.543366999999996
+28,Kyivs'ka oblast,Bila Tserkva,29.0,Ukraine,49.798889,30.115278000000004
+29,Donetsk Oblast,Kramatorsk,25.0,Ukraine,48.716762,37.5768757
+30,Kyivs'ka oblast,Boryspil',23.0,Ukraine,50.33822199999999,30.8939274
+31,Ivano-Frankivs'ka oblast,Kalush,23.0,Ukraine,49.0303724,24.4211128
+32,Rivnens'ka oblast,Ostroh,21.0,Ukraine,50.333333,26.516666999999998
+33,Ivano-Frankivs'ka oblast,Kolomyya,19.0,Ukraine,48.52989729999999,25.053106699999997
+34,Luhans'ka oblast,Luhansk,19.0,Ukraine,48.574040999999994,39.307815000000005
+35,Lviv Oblast,Drohobych,17.0,Ukraine,49.358011600000005,23.5123193
+36,Kyivs'ka oblast,Boyarka,16.0,Ukraine,50.317116999999996,30.298167
+37,Zakarpats'ka oblast,Mukacheve,16.0,Ukraine,48.45,22.75
+38,Kyivs'ka oblast,Obukhiv,15.0,Ukraine,50.13,30.656667
+39,Zaporiz'ka oblast,Berdyans'k,15.0,Ukraine,46.759722,36.784444
+40,Lviv Oblast,Stryi,15.0,Ukraine,49.25,23.85
+41,Kyivs'ka oblast,Bucha,14.0,Ukraine,50.4468014,30.075619699999997
+42,Khmel'nyts'ka oblast,Kam'yanets'-Podil's'kyi,14.0,Ukraine,48.683333000000005,26.583333000000003
+43,Kyivs'ka oblast,Vyshhorod,14.0,Ukraine,50.5904776,30.4831982
+44,Zaporiz'ka oblast,Melitopol',12.0,Ukraine,46.833333,35.366667
+45,Kyivs'ka oblast,Vyshneve,12.0,Ukraine,50.3919,30.368267
+46,Dnipropetrovsk Oblast,Nikopol',12.0,Ukraine,47.56746,34.394815
+47,Crimea,Simferopol,12.0,,44.952117,34.102416999999996
+48,Kyivs'ka oblast,Irpin',11.0,Ukraine,50.51875,30.239783000000003
+49,Masovian Voivodeship,Warsaw,11.0,Poland,52.2296756,21.012228699999998
+50,Odessa Oblast,Illichivs'k,11.0,Ukraine,46.2952236,30.648085499999997
+51,Kyivs'ka oblast,Fastiv,10.0,Ukraine,50.083333,29.916666999999997
+52,Odessa Oblast,Yuzhne,10.0,Ukraine,46.624021299999995,31.1000648
+53,Rivnens'ka oblast,Dubno,9.0,Ukraine,50.416667,25.75
+54,Zhytomyrs'ka oblast,Berdychiv,9.0,Ukraine,49.9,28.566667
+55,Zaporiz'ka oblast,Enerhodar,8.0,Ukraine,47.50150670000001,34.6341859
+56,Donetsk Oblast,Makiivka,8.0,Ukraine,48.0459557,37.9666901
+57,Kirovohrads'ka oblast,Svitlovods'k,8.0,Ukraine,49.050278000000006,33.241944000000004
+58,Cherkas'ka oblast,Uman',7.0,Ukraine,48.75,30.216666999999998
+59,Khmel'nyts'ka oblast,Shepetivka,7.0,Ukraine,50.183333000000005,27.066667
+60,Donetsk Oblast,Horlivka,7.0,Ukraine,48.3054062,38.0277908
+61,Luhans'ka oblast,Severodonetsk,7.0,Ukraine,48.933333000000005,38.5
+62,Lviv Oblast,Chervonohrad,7.0,Ukraine,50.39,24.23
+63,Volyns'ka oblast,Novovolynsk,7.0,Ukraine,50.73333299999999,24.166667
+64,Lviv Oblast,Zolochiv,7.0,Ukraine,49.80941,24.901370999999997
+65,Chernihivs'ka oblast,Pryluky,6.0,Ukraine,50.59999999999999,32.4
+66,Harju County,Tallinn,6.0,Estonia,59.388861,24.688905899999998
+67,Lower Silesian Voivodeship,Wroclaw,6.0,Poland,51.1078852,17.0385376
+68,Khmel'nyts'ka oblast,Ukrainka,6.0,Ukraine,50.015,26.4325
+69,Lviv Oblast,Novoyavorivs'k,6.0,Ukraine,49.93111099999999,23.573056
+70,Luhans'ka oblast,Novopskov,6.0,Ukraine,49.529722,39.117222
+71,Sums'ka oblast,Shostka,6.0,Ukraine,51.866667,33.483333
+72,Sevastopol' city,Sevastopol,6.0,,44.61665,33.525366999999996
+73,Kyivs'ka oblast,Vasyl'kiv,6.0,Ukraine,50.17833299999999,30.31583299999999
+74,Illinois,Chicago,5.0,United States,41.8781136,-87.62979820000001
+75,Donetsk Oblast,Slovyansk,5.0,Ukraine,48.8532,37.6053
+76,Dnipropetrovsk Oblast,Pavlohrad,5.0,Ukraine,48.516667,35.866667
+77,Vienna,Vienna,5.0,Austria,48.208174299999996,16.3738189
+78,Lviv Oblast,Novyi Rozdil,5.0,Ukraine,49.471944,24.133333
+79,Lviv Oblast,Stebnyk,5.0,Ukraine,49.3,23.566667000000002
+80,Ternopil's'ka oblast,Pidvolochys'k,5.0,Ukraine,49.52638899999999,26.141389
+81,Lviv Oblast,Truskavets,5.0,Ukraine,49.280556,23.505
+82,Rivnens'ka oblast,Kuznetsovsk,4.0,Ukraine,51.34365529999999,25.8490867
+83,Volyns'ka oblast,Kovel',4.0,Ukraine,51.216667,24.716667
+84,Alexandria Governorate,Alexandria,4.0,Egypt,31.2000924,29.9187387
+85,Chernihivs'ka oblast,Nizhyn,4.0,Ukraine,51.038056,31.886111
+86,Kyivs'ka oblast,Bohuslav,4.0,Ukraine,49.546667,30.872778000000004
+87,Khersons'ka oblast,Nova Kakhovka,4.0,Ukraine,46.766667,33.366667
+88,Kyivs'ka oblast,Pereyaslav-Khmel'nyts'kyi,4.0,Ukraine,50.066111,31.442221999999997
+89,Poltavs'ka oblast,Komsomol's'k,4.0,Ukraine,49.0156679,33.6450451
+90,Khmel'nyts'ka oblast,Netishyn,4.0,Ukraine,50.33397309999999,26.650084399999997
+91,Lesser Poland Voivodeship,Krakow,4.0,Poland,50.06465009999999,19.9449799
+92,Lviv Oblast,Sambir,4.0,Ukraine,49.516667,23.202778
+93,Zhytomyrs'ka oblast,Malyn,4.0,Ukraine,50.76888899999999,29.27
+94,Silesian Voivodeship,Katowice,4.0,Poland,50.26489189999999,19.023781500000002
+95,Kyivs'ka oblast,Slavutych,4.0,Ukraine,51.520556,30.756944
+96,Kyivs'ka oblast,Bilohorodka,4.0,Ukraine,50.3750037,30.2227951
+97,Odessa Oblast,Izmail,4.0,Ukraine,45.351667,28.836389
+98,Cherkas'ka oblast,Smila,4.0,Ukraine,49.227717,31.852233000000002
+99,Sums'ka oblast,Hlukhiv,4.0,Ukraine,51.678611,33.911389
+100,Lviv Oblast,Horodok,4.0,Ukraine,49.782222,23.643611
+101,Greater Poland Voivodeship,Poznan,4.0,Poland,52.406374,16.9251681
+102,Sums'ka oblast,Konotop,3.0,Ukraine,51.240943200000004,33.2050521
+103,Lviv Oblast,Pustomyty,3.0,Ukraine,49.71388899999999,23.910833
+104,Berlin,Berlin,3.0,Germany,52.52000659999999,13.404954
+105,Arizona,Goodyear,3.0,United States,33.3671645,-112.38803390000001
+106,New York,New York,3.0,United States,40.6781784,-73.94415790000001
+107,Ontario,London,3.0,Canada,42.9869502,-81.243177
+108,Dnipropetrovsk Oblast,Verkhn'odniprovs'k,3.0,Ukraine,48.656110999999996,34.328333
+109,Ontario,Toronto,3.0,Canada,43.653226000000004,-79.3831843
+110,Shanghai,Shanghai,3.0,China,31.230415999999998,121.473701
+111,Lviv Oblast,Sokal',3.0,Ukraine,50.48333299999999,24.283333
+112,Lublin Voivodeship,Lublin,3.0,Poland,51.2464536,22.5684463
+113,Poltavs'ka oblast,Lubny,3.0,Ukraine,50.016667,33.0
+114,Luhans'ka oblast,Alchevs'k,3.0,Ukraine,48.477778,38.797778
+115,Dnipropetrovsk Oblast,Zhovti Vody,3.0,Ukraine,48.34999999999999,33.5
+116,Zakarpats'ka oblast,Vynohradiv,3.0,Ukraine,48.149722,23.025
+117,Vinnyts'ka oblast,Ladyzhyn,3.0,Ukraine,48.6838051,29.2476274
+118,Hlavní město Praha,Prague,3.0,Czech Republic,50.0755381,14.4378005
+119,Ternopil's'ka oblast,Zalishchyky,3.0,Ukraine,48.65,25.733333
+120,Donetsk Oblast,Yenakijeve,3.0,Ukraine,48.216667,38.2
+121,Lazio,Rome,3.0,Italy,41.8723889,12.4801802
+122,Khmel'nyts'ka oblast,Slavuta,3.0,Ukraine,50.302778,26.868333000000003
+123,Kyivs'ka oblast,Skvyra,3.0,Ukraine,49.7328752,29.6642904
+124,Zaporiz'ka oblast,Tokmak,3.0,Ukraine,47.25,35.7
+125,Kyivs'ka oblast,Nemishajeve,3.0,Ukraine,50.564721999999996,30.093611
+126,Ternopil's'ka oblast,Berezhany,3.0,Ukraine,49.45,24.933332999999998
+127,Rostov Oblast,Donets'k,3.0,Russia,48.333333,39.933333000000005
+128,Moscow,Moscow,3.0,Russia,55.755826,37.6173
+129,Zhytomyrs'ka oblast,Novohrad-Volyns'kyi,3.0,Ukraine,50.583333,27.633333
+130,Khersons'ka oblast,Skadovs'k,3.0,Ukraine,46.116667,32.916667
+131,Luhans'ka oblast,Lysychans'k,2.0,Ukraine,48.916667,38.4
+132,Kyivs'ka oblast,Novi Petrivtsi,2.0,Ukraine,50.623056,30.446389
+133,Ivano-Frankivs'ka oblast,Kosiv,2.0,Ukraine,48.315,25.095278
+134,Zhytomyrs'ka oblast,Korosten',2.0,Ukraine,50.95,28.633333
+135,Vinnyts'ka oblast,Kozyatyn,2.0,Ukraine,49.7149346,28.8363647
+136,Kyivs'ka oblast,Sofiivs'ka Borshchahivka,2.0,Ukraine,50.411389,30.36916699999999
+137,,Petah Tikva,2.0,Israel,32.084041,34.887762
+138,Kharkiv Oblast,Kup'yans'k,2.0,Ukraine,49.701667,37.613333000000004
+139,Sums'ka oblast,Romny,2.0,Ukraine,50.75,33.466667
+140,Opole Voivodeship,Opole,2.0,Poland,50.6751067,17.921297600000003
+141,Kyivs'ka oblast,Chubyns'ke,2.0,Ukraine,50.384314,30.8486288
+142,Donetsk Oblast,Dymytrov,2.0,Ukraine,48.296211799999995,37.270003499999994
+143,Ivano-Frankivs'ka oblast,Rozhnevi Polya,2.0,Ukraine,48.524444,25.38
+144,Donetsk Oblast,Volnovakha,2.0,Ukraine,47.5951141,37.4831419
+145,Donetsk Oblast,Krasnoarmiis'k,2.0,Ukraine,48.28277800000001,37.182778000000006
+146,Lviv Oblast,Brody,2.0,Ukraine,50.083141,25.15
+147,Community of Madrid,Madrid,2.0,Spain,40.4167754,-3.7037902000000003
+148,Rivnens'ka oblast,Zdolbuniv,2.0,Ukraine,50.516667,26.25
+149,Lviv Oblast,Obroshyne,2.0,Ukraine,49.785278000000005,23.868610999999998
+150,Ivano-Frankivs'ka oblast,Yaremche,2.0,Ukraine,48.460278,24.558611
+151,Crimea,Nyzhn'ohirs'kyi,2.0,,45.4465898,34.7383516
+152,Kyivs'ka oblast,Tarashcha,2.0,Ukraine,49.55,30.5
+153,Crimea,Kerch,2.0,,45.357314,36.468293
+154,Khersons'ka oblast,Stanislav,2.0,Ukraine,46.57000000000001,32.15
+155,Poltavs'ka oblast,Hadyach,2.0,Ukraine,50.366667,34.0
+156,Luhans'ka oblast,Krasnodon,2.0,Ukraine,48.3,39.73333299999999
+157,Donetsk Oblast,Druzhkivka,2.0,Ukraine,48.621389,37.527778000000005
+158,Lviv Oblast,Boryslav,2.0,Ukraine,49.289167,23.418889
+159,Rivnens'ka oblast,Sarny,2.0,Ukraine,51.337222,26.605833
+160,Zakarpats'ka oblast,Perechyn,2.0,Ukraine,48.734167,22.474167
+161,Odessa Oblast,Bilhorod-Dnistrovs'kyi,2.0,Ukraine,46.183333000000005,30.333333000000003
+162,Beijing,Beijing,2.0,China,39.90403,116.407526
+163,Crimea,Feodosiya,2.0,,45.031933,35.382433
+164,Kirovohrads'ka oblast,Oleksandriya,2.0,Ukraine,48.666667,33.116667
+165,Cairo Governorate,Cairo,2.0,Egypt,30.0444196,31.235711600000005
+166,Ivano-Frankivs'ka oblast,Snyatyn,2.0,Ukraine,48.45,25.566667000000002
+167,Donetsk Oblast,Kostyantynivka,2.0,Ukraine,48.533333,37.716667
+168,Kyivs'ka oblast,Yahotyn,2.0,Ukraine,50.2455224,31.786695
+169,Миколаївська обл.,Pervomais'k,2.0,Ukraine,48.0497033,30.83256129999999
+170,Catalonia,Lleida,2.0,Spain,41.6175899,0.6200146
+171,Poltavs'ka oblast,Hradyz'k,2.0,Ukraine,49.233069,33.132037
+172,Chernivets'ka oblast,Hlyboka,2.0,Ukraine,48.083333,25.933332999999998
+173,Bavaria,Munich,2.0,Germany,48.1351253,11.5819806
+174,Kyivs'ka oblast,Ivankiv,2.0,Ukraine,50.933333000000005,29.9
+175,Kyivs'ka oblast,Makariv,2.0,Ukraine,50.459722,29.814721999999996
+176,Donetsk Oblast,Krasnyi Lyman,2.0,Ukraine,48.9897585,37.8049964
+177,Ivano-Frankivs'ka oblast,Nadvirna,2.0,Ukraine,48.633333,24.583333
+178,Dnipropetrovsk Oblast,Pershotravens'k,2.0,Ukraine,48.34638899999999,36.404444
+179,Ivano-Frankivs'ka oblast,Burshtyn,2.0,Ukraine,49.266667,24.633333
+180,Kyivs'ka oblast,Novosilky,2.0,Ukraine,50.354444,30.454444
+181,Cherkas'ka oblast,Zolotonosha,2.0,Ukraine,49.666667,32.033333
+182,Donetsk Oblast,Dobropillya,2.0,Ukraine,48.420039,37.052291
+183,Rīgas pilsēta,Rīga,2.0,Latvia,56.94964870000001,24.105186399999997
+184,Crimea,Dzhankoi,2.0,,45.7089869,34.3874785
+185,Luhans'ka oblast,Stakhanov,2.0,Ukraine,48.566666999999995,38.65
+186,Luhans'ka oblast,Svatove,2.0,Ukraine,49.416667,38.15
+187,Crimea,Yalta,2.0,,44.49520500000001,34.166301000000004
+188,Kyivs'ka oblast,Demydiv,2.0,Ukraine,50.727222,30.327221999999995
+189,Khmel'nyts'ka oblast,Polonne,2.0,Ukraine,50.116667,27.516666999999998
+190,Dublin,Dublin,2.0,Ireland,53.34980529999999,-6.2603097000000005
+191,Zakarpats'ka oblast,Khust,2.0,Ukraine,48.181389,23.297778
+192,Saint Petersburg,Saint Petersburg,2.0,Russia,59.9342802,30.335098600000002
+193,Vitebsk Province,Haradok,2.0,Belarus,55.466666999999994,30.0
+194,Kharkiv Oblast,Zmiiv,2.0,Ukraine,49.6944064,36.3595476
+195,Baden-Württemberg,Stuttgart,2.0,Germany,48.7754181,9.1817588
+196,Dnipropetrovsk Oblast,Novomoskovs'k,2.0,Ukraine,48.633333,35.216667
+197,Lviv Oblast,Sokilnyky,1.0,Ukraine,49.77694400000001,23.961389
+198,Salzburg,Salzburg,1.0,Austria,47.809490000000004,13.055010000000001
+199,Poltavs'ka oblast,Chervonozavods'ke,1.0,Ukraine,50.402466499999996,33.38474980000001
+200,Andalusia,Huelva,1.0,Spain,37.261421,-6.9447224
+201,North Rhine-Westphalia,Fröndenberg,1.0,Germany,51.471944,7.7658330000000015
+202,Dnipropetrovsk Oblast,Marhanets',1.0,Ukraine,47.639722,34.636389
+203,Kirovohrads'ka oblast,Znam'yanka,1.0,Ukraine,48.713611,32.673333
+204,Mykolaivs'ka oblast,Ol'shans'ke,1.0,Ukraine,47.184444,31.793889
+205,Ivano-Frankivs'ka oblast,Broshniv-Osada,1.0,Ukraine,48.999444,24.181389000000003
+206,Donetsk Oblast,Oleksandrivka,1.0,Ukraine,48.7,36.916667
+207,Primorsky Krai,Primorsky,1.0,Russia,43.098611,131.591667
+208,Cherkas'ka oblast,Kaniv,1.0,Ukraine,49.751033,31.4697
+209,Zaporiz'ka oblast,Orikhiv,1.0,Ukraine,47.566666999999995,35.783333
+210,,Sumgayit,1.0,Azerbaijan,40.556985600000004,49.6989473
+211,Donetsk Oblast,Selydove,1.0,Ukraine,48.15,37.303889
+212,Rivnens'ka oblast,Maslyanka,1.0,Ukraine,50.530833,25.613889
+213,Luhans'ka oblast,Kreminna,1.0,Ukraine,49.05,38.2167
+214,Odessa Oblast,Liubashivka,1.0,Ukraine,47.083333,30.033333000000002
+215,Uusimaa,Helsinki,1.0,Finland,60.17332440000001,24.9410248
+216,Volyns'ka oblast,Lyuboml',1.0,Ukraine,51.223056,24.037778
+217,Cherkas'ka oblast,Horodyshche,1.0,Ukraine,49.2890933,31.444505100000004
+218,Pomeranian Voivodeship,Kwidzyn,1.0,Poland,53.72635289999999,18.932304300000002
+219,California,San Francisco,1.0,United States,37.7749295,-122.4194155
+220,Chernivets'ka oblast,P'yadykivtsi,1.0,Ukraine,48.38,25.651667
+221,Lazio,Ariccia,1.0,Italy,41.7211083,12.6726413
+222,Khmel'nyts'ka oblast,Nova Ushytsya,1.0,Ukraine,48.835,27.271389000000003
+223,Zakarpats'ka oblast,Zahattya,1.0,Ukraine,48.398027299999995,22.9507674
+224,Dnipropetrovsk Oblast,Bashmachka,1.0,Ukraine,48.156019,35.010940999999995
+225,Odessa Oblast,Kholodna Balka,1.0,Ukraine,46.6,30.583333000000003
+226,Lviv Oblast,Vuzlove,1.0,Ukraine,50.225258000000004,24.547098899999998
+227,Chernivets'ka oblast,Khotyn,1.0,Ukraine,48.5,26.5
+228,Alberta,Calgary,1.0,Canada,51.04532460000001,-114.05810120000001
+229,Chernihivs'ka oblast,Ichnia,1.0,Ukraine,51.25,32.6
+230,Ternopil's'ka oblast,Husyatyn,1.0,Ukraine,49.073147,26.1831731
+231,Lviv Oblast,Rudky,1.0,Ukraine,49.653056,23.488056
+232,Kyivs'ka oblast,Khotiv,1.0,Ukraine,50.333333,30.46666699999999
+233,Azuay,Cuenca,1.0,Ecuador,-2.9001285,-79.00589649999998
+234,Donetsk Oblast,Korsun',1.0,Ukraine,48.209722,38.073333
+235,Red Sea Governorate,Hurghada,1.0,Egypt,27.2578957,33.811606700000006
+236,Dnipropetrovsk Oblast,Synel'nykove,1.0,Ukraine,48.3167,35.5167
+237,Kharkiv Oblast,Izyum,1.0,Ukraine,49.21277800000001,37.256944
+238,Kyivs'ka oblast,Pohreby,1.0,Ukraine,50.549167,30.64083299999999
+239,Kharkiv Oblast,Khlibne,1.0,Ukraine,48.9265826,36.2743664
+240,Vinnyts'ka oblast,Chechel'nyk,1.0,Ukraine,48.217,29.35
+241,State of Rio de Janeiro,Rio de Janeiro,1.0,Brazil,-22.9082998,-43.1970773
+242,Volyns'ka oblast,Lyubeshiv,1.0,Ukraine,51.75506729999999,25.498235
+243,,İstanbul,1.0,Turkey,41.00527,28.97696
+244,Lviv Oblast,Velyka Vil'shanytsya,1.0,Ukraine,49.80694399999999,24.662778
+245,Ivano-Frankivs'ka oblast,Bohorodchany,1.0,Ukraine,48.808056,24.538056
+246,Cherkas'ka oblast,Khrystynivka,1.0,Ukraine,48.81172120000001,29.973894899999998
+247,Kyivs'ka oblast,Mytnytsya,1.0,Ukraine,50.128611,30.243056
+248,Midi-Pyrénées,Le Bez,1.0,France,43.637267,2.4546810000000003
+249,Chernihivs'ka oblast,Varva,1.0,Ukraine,50.495,32.723611
+250,Hrodna Province,Slonim,1.0,Belarus,53.083332999999996,25.316667000000002
+251,England,Cambridge,1.0,United Kingdom,52.205337,0.12181700000000001
+252,Catalonia,Barcelona,1.0,Spain,41.3850639,2.1734035
+253,Kirovohrads'ka oblast,Haivoron,1.0,Ukraine,48.333333,29.866667
+254,Volyns'ka oblast,Manevychi,1.0,Ukraine,51.293889,25.532778
+255,,Girne,1.0,,35.323710399999996,33.3149413
+256,Dagestan Republic,Derbent,1.0,Russia,42.05,48.3
+257,Kyivs'ka oblast,Nove Zalissya,1.0,Ukraine,50.690278,29.968611
+258,Khersons'ka oblast,Kakhovka,1.0,Ukraine,46.8,33.466667
+259,Vinnyts'ka oblast,Mykhailivka,1.0,Ukraine,48.27333300000001,28.094444
+260,Volyns'ka oblast,Ivanychi,1.0,Ukraine,50.641667,24.366667
+261,Carinthia,Klagenfurt,1.0,Austria,46.62794,14.30899
+262,Tatarstan,Kazan,1.0,Russia,55.790278,49.134722
+263,Odessa Oblast,Berezivka,1.0,Ukraine,47.200556,30.917222
+264,Skane County,Lund,1.0,Sweden,55.704660100000005,13.1910073
+265,Mykolaivs'ka oblast,Novyi Buh,1.0,Ukraine,47.683333000000005,32.5
+266,Cherkas'ka oblast,Lysyanka,1.0,Ukraine,49.256944,30.82333299999999
+267,Attica,Athens,1.0,Greece,37.983917,23.7293599
+268,Rivnens'ka oblast,Hoshcha,1.0,Ukraine,50.598611,26.675278000000002
+269,Lviv Oblast,Dobrosyn,1.0,Ukraine,50.133055999999996,23.851944
+270,Crimea,Yevpatoriya,1.0,,45.19045,33.366867
+271,Kyivs'ka oblast,Rokytne,1.0,Ukraine,49.691180200000005,30.478015399999997
+272,Zakarpats'ka oblast,Kosivs'ka Polyana,1.0,Ukraine,48.0084202,24.1135333
+273,Mykolaivs'ka oblast,Veselynove,1.0,Ukraine,47.34999999999999,31.23333299999999
+274,Alsace,Strasbourg,1.0,France,48.583148,7.747882000000001
+275,Chernivets'ka oblast,Lashkivka,1.0,Ukraine,48.413610999999996,25.780556
+276,Ivano-Frankivs'ka oblast,Halych,1.0,Ukraine,49.124722,24.728610999999997
+277,Crimea,Hurzuf,1.0,,44.54844809999999,34.28418610000001
+278,Lviv Oblast,Zhydachiv,1.0,Ukraine,49.381389,24.140832999999997
+279,Khersons'ka oblast,Beryslav,1.0,Ukraine,46.833333,33.416667
+280,Mykolaivs'ka oblast,Yuzhnoukrains'k,1.0,Ukraine,47.8228,31.1775
+281,Dnipropetrovsk Oblast,Zorya,1.0,Ukraine,48.660911999999996,34.809921
+282,Zakarpats'ka oblast,Svalyava,1.0,Ukraine,48.547222,22.986110999999998
+283,Cherkas'ka oblast,Tal'ne,1.0,Ukraine,48.883333,30.7
+284,Carinthia,Dolina,1.0,Austria,46.640126200000005,14.4491362
+285,Crimea,Alushta,1.0,,44.67638300000001,34.41005
+286,Lviv Oblast,Sosnivka,1.0,Ukraine,50.29969440000001,24.247116600000002
+287,Kharkiv Oblast,Sontsedarivka,1.0,Ukraine,49.940833000000005,35.359444
+288,Capital Region of Denmark,Copenhagen,1.0,Denmark,55.676096799999996,12.568337099999999
+289,Vinnyts'ka oblast,Yampil',1.0,Ukraine,48.243612,28.287041
+290,Varna,Varna,1.0,Bulgaria,43.2140504,27.914733299999998
+291,Žilina Region,Žilina,1.0,Slovakia,49.2215903,18.741951899999997
+292,Lviv Oblast,Peremyshlyany,1.0,Ukraine,49.66999999999999,24.559444
+293,South Moravian Region,Brno,1.0,Czech Republic,49.1950602,16.6068371
+294,Cherkas'ka oblast,Vatutine,1.0,Ukraine,49.016667,31.066667
+295,Podkarpackie Voivodeship,Rzeszow,1.0,Poland,50.041186700000004,21.999119600000004
+296,Kyivs'ka oblast,Hatne,1.0,Ukraine,50.354167,30.375
+297,Piedmont,Turin,1.0,Italy,45.070312,7.686856499999998
+298,Cherkas'ka oblast,Vil'shana,1.0,Ukraine,49.209722,31.208889000000003
+299,Luhans'ka oblast,Sverdlovs'k,1.0,Ukraine,48.077778,39.647222
+300,Zaporiz'ka oblast,Polohy,1.0,Ukraine,47.476110999999996,36.259167
+301,Kharkiv Oblast,Panyutyne,1.0,Ukraine,48.929722,36.28
+302,Donetsk Oblast,Kurakhove,1.0,Ukraine,47.98333299999999,37.266667
+303,Poltavs'ka oblast,Zin'kiv,1.0,Ukraine,50.2,34.35
+304,Mykolaivs'ka oblast,Voznesens'k,1.0,Ukraine,47.5605,31.336116999999998
+305,Kyivs'ka oblast,Rzhyshchiv,1.0,Ukraine,49.961110999999995,31.043611
+306,Poltavs'ka oblast,Karlivka,1.0,Ukraine,49.45,35.133333
+307,Tula Oblast,Novomoskovsk,1.0,Russia,54.0109034,38.2963063
+308,Rhineland-Palatinate,Trippstadt,1.0,Germany,49.3589666,7.7742651999999985
+309,Kyivs'ka oblast,Motyzhyn,1.0,Ukraine,50.381667,29.936389000000002
+310,Kyivs'ka oblast,Shpyt'ky,1.0,Ukraine,50.4175,30.127778000000003
+311,Odessa Oblast,Kotovs'k,1.0,Ukraine,47.75,29.533333000000002
+312,Zhytomyrs'ka oblast,Romaniv,1.0,Ukraine,50.149167,27.933333
+313,Dnipropetrovsk Oblast,Ternivka,1.0,Ukraine,48.512610200000005,36.0805821
+314,Lviv Oblast,Yavoriv,1.0,Ukraine,49.94694399999999,23.393056
+315,Bavaria,Regensburg,1.0,Germany,49.0134297,12.101623599999998
+316,Dnipropetrovsk Oblast,Volos'ke,1.0,Ukraine,48.304913,35.139401
+317,Odessa Oblast,Velykyi Dal'nyk,1.0,Ukraine,46.4779255,30.5570934
+318,Zhytomyrs'ka oblast,Ovruch,1.0,Ukraine,51.316666999999995,28.8
+319,Sums'ka oblast,Lypova Dolyna,1.0,Ukraine,50.563691999999996,33.793605
+320,Kyivs'ka oblast,Arkadiivka,1.0,Ukraine,50.55694399999999,31.866667
+321,Vinnyts'ka oblast,Mohyliv-Podil's'kyi,1.0,Ukraine,48.455,27.808056
+322,Kyivs'ka oblast,Berezan',1.0,Ukraine,50.3070969,31.46433
+323,Vinnyts'ka oblast,Selyshche,1.0,Ukraine,49.126667,28.3625
+324,Mykolaivs'ka oblast,Snihurivka,1.0,Ukraine,47.066666999999995,32.816666999999995
+325,Odessa Oblast,Lymans'ke,1.0,Ukraine,46.663889000000005,29.970833000000002
+326,Santiago Metropolitan Region,Santiago,1.0,Chile,-33.469119899999995,-70.641997
+327,,Minsk,1.0,Belarus,53.9,27.566667
+328,Florida,Gainesville,1.0,United States,29.6516344,-82.32482619999998
+329,Quebec,Montreal,1.0,Canada,45.508669899999994,-73.55399249999998
+330,Vinnyts'ka oblast,Lityn,1.0,Ukraine,49.327220000000004,28.083333000000003
+331,Odessa Oblast,Kominternivs'ke,1.0,Ukraine,46.82,30.945
+332,Ternopil's'ka oblast,Kozova,1.0,Ukraine,49.433333000000005,25.15
+333,British Columbia,Vancouver,1.0,Canada,49.261226,-123.11392679999999
+334,Kharkiv Oblast,Pisochyn,1.0,Ukraine,49.953889000000004,36.109167
+335,Kyivs'ka oblast,Lyutizh,1.0,Ukraine,50.684722,30.394444
+336,Maharashtra,Sheraval Kh.,1.0,India,17.7007212,73.31774890000001
+337,Zhytomyrs'ka oblast,Mala Racha,1.0,Ukraine,50.546110999999996,29.280278000000003
+338,,İzmir,1.0,Turkey,38.41885,27.12872
+339,Kyivs'ka oblast,Bohdanivka,1.0,Ukraine,50.626389,30.915
+340,Kyivs'ka oblast,Kotsyubyns'ke,1.0,Ukraine,50.4884976,30.3357115
+341,Nord-Pas-de-Calais,Lille,1.0,France,50.62925,3.057256
+342,Vinnyts'ka oblast,Tul'chyn,1.0,Ukraine,48.674444,28.849721999999996
+343,Cherkas'ka oblast,Pohyblyak,1.0,Ukraine,49.273056,30.635
+344,Île-de-France,Paris,1.0,France,48.856614,2.3522218999999995
+345,Ivano-Frankivs'ka oblast,Mostyshche,1.0,Ukraine,49.07027799999999,24.3425
+346,Lviv Oblast,Mostys'ka,1.0,Ukraine,49.79416699999999,23.1525
+347,Ivano-Frankivs'ka oblast,Dolyna,1.0,Ukraine,48.970556,24.011111
+348,Sums'ka oblast,Trostyanets',1.0,Ukraine,50.466667,34.95
+349,Kuyavian-Pomeranian Voivodeship,Bydgoszcz,1.0,Poland,53.12348040000001,18.0084378
+350,Baden-Württemberg,Freiburg,1.0,Germany,47.99900770000001,7.842104299999999
+351,Alberta,Edmonton,1.0,Canada,53.544389,-113.4909267
+352,Kyivs'ka oblast,Velyka Dymerka,1.0,Ukraine,50.5907602,30.8943781
+353,California,San Jose,1.0,United States,37.3393857,-121.8949555
+354,Crimea,Armyans'k,1.0,,46.1140519,33.6876019
+355,Ternopil's'ka oblast,Kopychyntsi,1.0,Ukraine,49.09999999999999,25.933332999999998
+356,Cherkas'ka oblast,Zhashkiv,1.0,Ukraine,49.25,30.1
+357,North Rhine-Westphalia,Münster,1.0,Germany,51.95262289999999,7.5516663
+358,Donetsk Oblast,Mykolaivka,1.0,Ukraine,48.85304420000001,37.77115429999999
+359,Rivnens'ka oblast,Bystrychi,1.0,Ukraine,50.882222,26.905833
+360,Vinnyts'ka oblast,Zhmerynka,1.0,Ukraine,49.05,28.1
+361,Zhytomyrs'ka oblast,Radomyshl',1.0,Ukraine,50.494721999999996,29.233333000000002
+362,Kyivs'ka oblast,Borodyanka,1.0,Ukraine,50.628721999999996,29.894194
+363,Hesse,Frankfurt,1.0,Germany,50.1109221,8.6821267
+364,Odessa Oblast,Tatarbunary,1.0,Ukraine,45.83911320000001,29.6145761
+365,Lviv Oblast,Zhuratyn,1.0,Ukraine,49.941666999999995,24.600832999999998
+366,Thuringia,Erfurt,1.0,Germany,50.98476789999999,11.0298799
+367,Vologda Oblast,Cherepovets,1.0,Russia,59.132332999999996,37.9091811
+368,Ivano-Frankivs'ka oblast,Tsenyava,1.0,Ukraine,48.550278000000006,25.124722
+369,Limburg,Maastricht,1.0,The Netherlands,50.8513682,5.6909725
+370,Khersons'ka oblast,Kozats'ke,1.0,Ukraine,46.786667,33.332221999999994
+371,Rivnens'ka oblast,Stepan',1.0,Ukraine,51.128333000000005,26.304167
+372,Khmel'nyts'ka oblast,Derazhnya,1.0,Ukraine,49.266667,27.433333
+373,Sums'ka oblast,Lebedyn,1.0,Ukraine,50.579722,34.477222
+374,Oslo,Oslo,1.0,Kingdom of Norway,59.913868799999996,10.7522454
+375,Donetsk Oblast,Artemivs'k,1.0,Ukraine,48.5986674,37.9980367
+376,Ivano-Frankivs'ka oblast,Nyzhnii Verbizh,1.0,Ukraine,48.5102309,25.0136635
+377,Kyivs'ka oblast,Kriukivshchyna,1.0,Ukraine,50.371922,30.37116199999999
+378,Silesian Voivodeship,Piekary Slaskie,1.0,Poland,50.37891079999999,18.9270475
+379,Odessa Oblast,Novoselivka,1.0,Ukraine,46.992222,29.911944000000002
+380,Luhans'ka oblast,Rubizhne,1.0,Ukraine,49.01,38.371389
+381,Lviv Oblast,Kam'yanka-Buz'ka,1.0,Ukraine,50.09999999999999,24.35
+382,Vinnyts'ka oblast,Lypovets',1.0,Ukraine,49.220833,29.05694399999999
+383,Luhans'ka oblast,Shul'hynka,1.0,Ukraine,49.143333,38.926389
+384,Ivano-Frankivs'ka oblast,Vyhoda,1.0,Ukraine,48.92833299999999,23.918332999999997
+385,Region of Murcia,Murcia,1.0,Spain,37.992239899999994,-1.1306544
+386,Rivnens'ka oblast,Lyuchyn,1.0,Ukraine,50.31277799999999,26.438610999999998
+387,Donetsk Oblast,Dzerzhyns'k,1.0,Ukraine,48.4,37.833333
+388,Zaporiz'ka oblast,Novomykolaivka,1.0,Ukraine,47.978889,35.897778
+389,Luhans'ka oblast,Bryanka,1.0,Ukraine,48.513333,38.643056
+390,Odessa Oblast,Rozdil'na,1.0,Ukraine,46.85,30.066667
+391,Zhytomyrs'ka oblast,Berestivka,1.0,Ukraine,50.340556,27.476111
+392,Vaduz,Vaduz,1.0,Liechtenstein,47.14136999999999,9.5207
+393,New South Wales,Sydney,1.0,Australia,-33.8674869,151.20699019999998
+394,Ivano-Frankivs'ka oblast,Zabolotiv,1.0,Ukraine,48.4723378,25.2792457
+395,Ivano-Frankivs'ka oblast,Pniv,1.0,Ukraine,48.610556,24.528889000000003
+396,Jalisco,Guadalajara,1.0,Mexico,20.6596988,-103.3496092
+397,Chernivets'ka oblast,Kitsman',1.0,Ukraine,48.441666999999995,25.76
+398,Volyns'ka oblast,Kortelisy,1.0,Ukraine,51.8525,24.4303
+399,Donetsk Oblast,Novohrodivka,1.0,Ukraine,48.2,37.339444
+400,Dnipropetrovsk Oblast,Mahdalynivka,1.0,Ukraine,48.9255392,34.907548999999996
+401,Mykolaivs'ka oblast,Bashtanka,1.0,Ukraine,47.4,32.45
+402,Volyns'ka oblast,Kamin'-Kashyrs'kyi,1.0,Ukraine,51.624167,24.960556
+403,Volyns'ka oblast,Turiis'k,1.0,Ukraine,51.088333,24.524444
+404,Ternopil's'ka oblast,Skomorokhy,1.0,Ukraine,49.406667,25.725278
+405,Zhytomyrs'ka oblast,Velyki Kosharyshcha,1.0,Ukraine,50.2825326,28.9077521
+406,Ternopil's'ka oblast,Kremenets',1.0,Ukraine,50.119721999999996,25.716667
+407,Sums'ka oblast,Bilopillya,1.0,Ukraine,51.148333,34.300833000000004
+408,Lesser Poland Voivodeship,Oswiecim,1.0,Poland,50.0343982,19.209778200000002
+409,Luhans'ka oblast,смт. Новоайдар,1.0,Ukraine,48.96685739999999,38.991712400000004
+410,Lviv Oblast,Hirnyk,1.0,Ukraine,50.330730700000004,24.190216500000002
+411,Lviv Oblast,Drozdovychi,1.0,Ukraine,49.6775058,22.901799899999997
+412,Khmel'nyts'ka oblast,Yarmolyntsi,1.0,Ukraine,49.1925,26.839722
+413,Lower Silesian Voivodeship,Milicz,1.0,Poland,51.527595700000006,17.2712122
+414,Lviv Oblast,Skole,1.0,Ukraine,49.033333,23.516667
+415,Rivnens'ka oblast,Ostriv,1.0,Ukraine,50.41805600000001,26.017222
+416,Guangdong,Guangzhou,1.0,China,23.129163000000002,113.264435
+417,Volyns'ka oblast,Harazdzha,1.0,Ukraine,50.739444,25.526111
+418,Luhans'ka oblast,Novodruzhes'k,1.0,Ukraine,48.966667,38.35
+419,Bratislava Region,Bratislava,1.0,Slovakia,48.14589229999999,17.1071373
+420,England,Southampton,1.0,United Kingdom,50.90970040000001,-1.4043508999999998
+421,Kharkiv Oblast,Velykyi Burluk,1.0,Ukraine,50.045556,37.390556
+422,Zhytomyrs'ka oblast,Shumsk,1.0,Ukraine,50.183333000000005,28.55
+423,Zhytomyrs'ka oblast,Chmil',1.0,Ukraine,50.930556,27.910278
+424,Luhans'ka oblast,Troits'ke,1.0,Ukraine,49.904333,38.308003
+425,Cherkas'ka oblast,Yaroshivka,1.0,Ukraine,48.77,31.255556
+426,Zakarpats'ka oblast,Mizhhir'ya,1.0,Ukraine,48.5217508,23.503452600000003
+427,Zhytomyrs'ka oblast,Volodars'k-Volyns'kyi,1.0,Ukraine,50.59555599999999,28.444722
+428,Homiel Province,Gomel,1.0,Belarus,52.44527799999999,30.984167
+429,Zakarpats'ka oblast,Tyachiv,1.0,Ukraine,48.011389,23.572222
+430,Washington,Seattle,1.0,United States,47.6062095,-122.33207079999998
+431,Kharkiv Oblast,Lyubotyn,1.0,Ukraine,49.95,35.929444000000004
+432,Volyns'ka oblast,Volodymyr-Volynsky,1.0,Ukraine,50.848056,24.322222
+433,Bavaria,Augsburg,1.0,Germany,48.3705449,10.897789999999999
+434,Lviv Oblast,Sknyliv,1.0,Ukraine,49.7942127,23.9355976
+435,Lviv Oblast,Rozvadiv,1.0,Ukraine,49.50027799999999,23.966944
+436,Kyivs'ka oblast,Prolisky,1.0,Ukraine,50.393333,30.788333
+437,Zakarpats'ka oblast,Irshava,1.0,Ukraine,48.316666999999995,23.05
+438,Vaud,Lausanne,1.0,Switzerland,46.5199617,6.6335970999999985
+439,Ontario,Ottawa,1.0,Canada,45.42152960000001,-75.69719309999998
+440,Midi-Pyrénées,Clermont-le-Fort,1.0,France,43.4595011,1.4713389
+441,Kharkiv Oblast,Natalyne,1.0,Ukraine,49.34555599999999,35.482778
+442,Iowa,Ames,1.0,United States,42.034721999999995,-93.62
+443,Poltavs'ka oblast,Myrhorod,1.0,Ukraine,49.966667,33.6
+444,Łódź Voivodeship,Lodz,1.0,Poland,51.7592485,19.4559833
+445,Meath,Navan,1.0,Ireland,53.6530417,-6.6842304000000015
+446,West Pomeranian Voivodeship,Szczecin,1.0,Poland,53.4285438,14.5528116
+447,Lviv Oblast,Velykyi Lyubin',1.0,Ukraine,49.723889,23.733611
+448,Kyivs'ka oblast,Hostomel',1.0,Ukraine,50.569167,30.265278000000002
+449,Kyivs'ka oblast,Hlevakha,1.0,Ukraine,50.262221999999994,30.289444
+450,Baden-Württemberg,Mannheim,1.0,Germany,49.4874592,8.466039499999999
+451,Donetsk Oblast,Shakhtars'k,1.0,Ukraine,48.0625,38.416667
+452,Lombardy,Milan,1.0,Italy,45.465421899999996,9.1859243
+453,Brussels,Brussels,1.0,Belgium,50.8503396,4.3517103
+454,Kyivs'ka oblast,Kalynivka,1.0,Ukraine,50.559166999999995,30.821111
+455,Luhans'ka oblast,Starobil's'k,1.0,Ukraine,49.2833,38.9167
+456,Lviv Oblast,Radekhiv,1.0,Ukraine,50.282778,24.6375
+457,Dnipropetrovsk Oblast,Oleksiivka,1.0,Ukraine,47.594268,34.237697
+458,Ternopil's'ka oblast,Khorostkiv,1.0,Ukraine,49.2030849,25.903470199999997
+459,Kyivs'ka oblast,Chaiky,1.0,Ukraine,50.4401629,30.2879474
+460,Dnipropetrovsk Oblast,Kirovs'ke,1.0,Ukraine,48.550312,34.855568
+461,Kyivs'ka oblast,Muzychi,1.0,Ukraine,50.360278,30.1125

@@ -1,0 +1,169 @@
+﻿origin,exception
+Львіві,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%96&components=&sensor=false&language=&bounds="
+мiсто Запорiжжя,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BCi%D1%81%D1%82%D0%BE+%D0%97%D0%B0%D0%BF%D0%BE%D1%80i%D0%B6%D0%B6%D1%8F&components=&sensor=false&language=&bounds="
+Iвано - Франкiвськ / Львiв ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=I%D0%B2%D0%B0%D0%BD%D0%BE+-+%D0%A4%D1%80%D0%B0%D0%BD%D0%BAi%D0%B2%D1%81%D1%8C%D0%BA+%2F+%D0%9B%D1%8C%D0%B2i%D0%B2+&components=&sensor=false&language=&bounds="
+"Київска обл., м.Бровари","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB.%2C+%D0%BC.%D0%91%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D0%B8&components=&sensor=false&language=&bounds="
+Запорыжжя,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D1%8B%D0%B6%D0%B6%D1%8F&components=&sensor=false&language=&bounds="
+"м. Луцьк, Волинської обл.","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9B%D1%83%D1%86%D1%8C%D0%BA%2C+%D0%92%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB.&components=&sensor=false&language=&bounds="
+Дьвів,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%94%D1%8C%D0%B2%D1%96%D0%B2&components=&sensor=false&language=&bounds="
+"Народилася в Коломиї (Івано-Франківська обл), навчалася у Львові а зараз навчаюся в Таллінні (Естонія) ","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D1%81%D1%8F+%D0%B2+%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B8%D1%97+%28%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%29%2C+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BB%D0%B0%D1%81%D1%8F+%D1%83+%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%96+%D0%B0+%D0%B7%D0%B0%D1%80%D0%B0%D0%B7+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D1%8E%D1%81%D1%8F+%D0%B2+%D0%A2%D0%B0%D0%BB%D0%BB%D1%96%D0%BD%D0%BD%D1%96+%28%D0%95%D1%81%D1%82%D0%BE%D0%BD%D1%96%D1%8F%29+&components=&sensor=false&language=&bounds="
+"m.Gorodok, Lvivska obl.","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=m.Gorodok%2C+Lvivska+obl.&components=&sensor=false&language=&bounds="
+"м.Полтава, с. Микільське","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0%2C+%D1%81.+%D0%9C%D0%B8%D0%BA%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B5&components=&sensor=false&language=&bounds="
+м. Шостка Сум.обл Україна,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%A8%D0%BE%D1%81%D1%82%D0%BA%D0%B0+%D0%A1%D1%83%D0%BC.%D0%BE%D0%B1%D0%BB+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0&components=&sensor=false&language=&bounds="
+"Київська область,Вишгородський р-н,село Нижча Дубечня","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C%D0%92%D0%B8%D1%88%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80-%D0%BD%2C%D1%81%D0%B5%D0%BB%D0%BE+%D0%9D%D0%B8%D0%B6%D1%87%D0%B0+%D0%94%D1%83%D0%B1%D0%B5%D1%87%D0%BD%D1%8F&components=&sensor=false&language=&bounds="
+Червоноград  Львівської обл.,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4++%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB.&components=&sensor=false&language=&bounds="
+"с.Дмитрівка, Богодухівського р-ну, Харківської обл.","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81.%D0%94%D0%BC%D0%B8%D1%82%D1%80%D1%96%D0%B2%D0%BA%D0%B0%2C+%D0%91%D0%BE%D0%B3%D0%BE%D0%B4%D1%83%D1%85%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80-%D0%BD%D1%83%2C+%D0%A5%D0%B0%D1%80%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB.&components=&sensor=false&language=&bounds="
+Kиїв,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=K%D0%B8%D1%97%D0%B2&components=&sensor=false&language=&bounds="
+с.Володарка Поліського району Київської області,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81.%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80%D0%BA%D0%B0+%D0%9F%D0%BE%D0%BB%D1%96%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+"Острог, Рівенська область","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B3%2C+%D0%A0%D1%96%D0%B2%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C&components=&sensor=false&language=&bounds="
+"м. Київ, Нововолинськ","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2%2C+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA&components=&sensor=false&language=&bounds="
+смт. Димер,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81%D0%BC%D1%82.+%D0%94%D0%B8%D0%BC%D0%B5%D1%80&components=&sensor=false&language=&bounds="
+"Україна, Хмельницька обл., смт. Білогір'я, вул. Ломоносова 129а","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0%2C+%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB.%2C+%D1%81%D0%BC%D1%82.+%D0%91%D1%96%D0%BB%D0%BE%D0%B3%D1%96%D1%80%27%D1%8F%2C+%D0%B2%D1%83%D0%BB.+%D0%9B%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D0%B0+129%D0%B0&components=&sensor=false&language=&bounds="
+Khrystynovka,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=Khrystynovka&components=&sensor=false&language=&bounds="
+м. Комосомольськ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9A%D0%BE%D0%BC%D0%BE%D1%81%D0%BE%D0%BC%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA&components=&sensor=false&language=&bounds="
+"Родився в смт. Романів Житомирської області, на даний час живу в м. Києві","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A0%D0%BE%D0%B4%D0%B8%D0%B2%D1%81%D1%8F+%D0%B2+%D1%81%D0%BC%D1%82.+%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%96%D0%B2+%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96%2C+%D0%BD%D0%B0+%D0%B4%D0%B0%D0%BD%D0%B8%D0%B9+%D1%87%D0%B0%D1%81+%D0%B6%D0%B8%D0%B2%D1%83+%D0%B2+%D0%BC.+%D0%9A%D0%B8%D1%94%D0%B2%D1%96&components=&sensor=false&language=&bounds="
+"Київська область, смт Ворзель","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%81%D0%BC%D1%82+%D0%92%D0%BE%D1%80%D0%B7%D0%B5%D0%BB%D1%8C&components=&sensor=false&language=&bounds="
+Лімассол,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9B%D1%96%D0%BC%D0%B0%D1%81%D1%81%D0%BE%D0%BB&components=&sensor=false&language=&bounds="
+м. Красноармiйськ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B0%D1%80%D0%BCi%D0%B9%D1%81%D1%8C%D0%BA&components=&sensor=false&language=&bounds="
+"Волинська область, смт Цумань","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%92%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%81%D0%BC%D1%82+%D0%A6%D1%83%D0%BC%D0%B0%D0%BD%D1%8C&components=&sensor=false&language=&bounds="
+Вишневе Київської області,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%92%D0%B8%D1%88%D0%BD%D0%B5%D0%B2%D0%B5+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+"Iрпiнь, ","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=I%D1%80%D0%BFi%D0%BD%D1%8C%2C+&components=&sensor=false&language=&bounds="
+Миколаiв,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0i%D0%B2&components=&sensor=false&language=&bounds="
+"Закарпаття, смт. Великий Бичків","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%97%D0%B0%D0%BA%D0%B0%D1%80%D0%BF%D0%B0%D1%82%D1%82%D1%8F%2C+%D1%81%D0%BC%D1%82.+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9+%D0%91%D0%B8%D1%87%D0%BA%D1%96%D0%B2&components=&sensor=false&language=&bounds="
+"м. Нововолинськ, обл. Волинська","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B2%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%2C+%D0%BE%D0%B1%D0%BB.+%D0%92%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&components=&sensor=false&language=&bounds="
+Коростишій,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B8%D1%88%D1%96%D0%B9&components=&sensor=false&language=&bounds="
+"С. Бузове, Київський р-н","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A1.+%D0%91%D1%83%D0%B7%D0%BE%D0%B2%D0%B5%2C+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80-%D0%BD&components=&sensor=false&language=&bounds="
+м.Пирятин обл.Полтавська,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D0%9F%D0%B8%D1%80%D1%8F%D1%82%D0%B8%D0%BD+%D0%BE%D0%B1%D0%BB.%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B0&components=&sensor=false&language=&bounds="
+Нiжин,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9Di%D0%B6%D0%B8%D0%BD&components=&sensor=false&language=&bounds="
+м. Новоград-Волинський Житомирської обл.,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9D%D0%BE%D0%B2%D0%BE%D0%B3%D1%80%D0%B0%D0%B4-%D0%92%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB.&components=&sensor=false&language=&bounds="
+"Дніпрорудне, Запорізької області","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D1%80%D1%83%D0%B4%D0%BD%D0%B5%2C+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D1%96%D0%B7%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+м. Бориспіль Київської обл.,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BF%D1%96%D0%BB%D1%8C+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB.&components=&sensor=false&language=&bounds="
+"м.Мукачево, Закарпатської області","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D0%9C%D1%83%D0%BA%D0%B0%D1%87%D0%B5%D0%B2%D0%BE%2C+%D0%97%D0%B0%D0%BA%D0%B0%D1%80%D0%BF%D0%B0%D1%82%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+"с. Оболоня Долинського району Івано-Франківської області, Україна","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81.+%D0%9E%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD%D1%8F+%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96%2C+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0&components=&sensor=false&language=&bounds="
+Oбанж,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=O%D0%B1%D0%B0%D0%BD%D0%B6&components=&sensor=false&language=&bounds="
+Kиев,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=K%D0%B8%D0%B5%D0%B2&components=&sensor=false&language=&bounds="
+смт. Чабани,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81%D0%BC%D1%82.+%D0%A7%D0%B0%D0%B1%D0%B0%D0%BD%D0%B8&components=&sensor=false&language=&bounds="
+м. Вiнниця,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%92i%D0%BD%D0%BD%D0%B8%D1%86%D1%8F&components=&sensor=false&language=&bounds="
+"Київська обл., Броварський р-н, смт.Калинівка","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB.%2C+%D0%91%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80-%D0%BD%2C+%D1%81%D0%BC%D1%82.%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D1%96%D0%B2%D0%BA%D0%B0&components=&sensor=false&language=&bounds="
+"С. Червонопопівка, Кремінський район, обл. Луганська ","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A1.+%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%BE%D0%BF%D0%BE%D0%BF%D1%96%D0%B2%D0%BA%D0%B0%2C+%D0%9A%D1%80%D0%B5%D0%BC%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%BE%D0%B1%D0%BB.+%D0%9B%D1%83%D0%B3%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+&components=&sensor=false&language=&bounds="
+м.Южне Одеської області,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D0%AE%D0%B6%D0%BD%D0%B5+%D0%9E%D0%B4%D0%B5%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+Львыв,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9B%D1%8C%D0%B2%D1%8B%D0%B2&components=&sensor=false&language=&bounds="
+СМТ.Романів,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A1%D0%9C%D0%A2.%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%96%D0%B2&components=&sensor=false&language=&bounds="
+Киів ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%9A%D0%B8%D1%96%D0%B2+&components=&sensor=false&language=&bounds="
+Zaporijja,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=Zaporijja&components=&sensor=false&language=&bounds="
+"м. Львів, смт. Куликівка","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%2C+%D1%81%D0%BC%D1%82.+%D0%9A%D1%83%D0%BB%D0%B8%D0%BA%D1%96%D0%B2%D0%BA%D0%B0&components=&sensor=false&language=&bounds="
+смт Нові Санжари Полтавської області,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81%D0%BC%D1%82+%D0%9D%D0%BE%D0%B2%D1%96+%D0%A1%D0%B0%D0%BD%D0%B6%D0%B0%D1%80%D0%B8+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+м. Надвірна Івано-Франківської обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%9D%D0%B0%D0%B4%D0%B2%D1%96%D1%80%D0%BD%D0%B0+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+Iвано-Франкiвськ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=I%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BAi%D0%B2%D1%81%D1%8C%D0%BA&components=&sensor=false&language=&bounds="
+Рiвне,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A0i%D0%B2%D0%BD%D0%B5&components=&sensor=false&language=&bounds="
+"м. Донецьк донедавна, м.Київ - наразі","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA+%D0%B4%D0%BE%D0%BD%D0%B5%D0%B4%D0%B0%D0%B2%D0%BD%D0%B0%2C+%D0%BC.%D0%9A%D0%B8%D1%97%D0%B2+-+%D0%BD%D0%B0%D1%80%D0%B0%D0%B7%D1%96&components=&sensor=false&language=&bounds="
+місто Макіївка Донецької області,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC%D1%96%D1%81%D1%82%D0%BE+%D0%9C%D0%B0%D0%BA%D1%96%D1%97%D0%B2%D0%BA%D0%B0+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96&components=&sensor=false&language=&bounds="
+Станіславів,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D1%96%D0%B2&components=&sensor=false&language=&bounds="
+с.Сергіївка Братський рн Миколаївська обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81.%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D1%97%D0%B2%D0%BA%D0%B0+%D0%91%D1%80%D0%B0%D1%82%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%BD+%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+"Чернівецька обл., м. Вижниця","Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D0%B5%D1%86%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB.%2C+%D0%BC.+%D0%92%D0%B8%D0%B6%D0%BD%D0%B8%D1%86%D1%8F&components=&sensor=false&language=&bounds="
+Днiпропетровськ,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%94%D0%BDi%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D1%8C%D0%BA&components=&sensor=false&language=&bounds="
+україни киевская обл фастівський р н пос.боровая,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB+%D1%84%D0%B0%D1%81%D1%82%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80+%D0%BD+%D0%BF%D0%BE%D1%81.%D0%B1%D0%BE%D1%80%D0%BE%D0%B2%D0%B0%D1%8F&components=&sensor=false&language=&bounds="
+село тернувате кривоозерського району миколаївська область,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81%D0%B5%D0%BB%D0%BE+%D1%82%D0%B5%D1%80%D0%BD%D1%83%D0%B2%D0%B0%D1%82%D0%B5+%D0%BA%D1%80%D0%B8%D0%B2%D0%BE%D0%BE%D0%B7%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83+%D0%BC%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C&components=&sensor=false&language=&bounds="
+кам'янця подільського,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BA%D0%B0%D0%BC%27%D1%8F%D0%BD%D1%86%D1%8F+%D0%BF%D0%BE%D0%B4%D1%96%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE&components=&sensor=false&language=&bounds="
+смт середня ужгородський р н закарпатської обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81%D0%BC%D1%82+%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8F+%D1%83%D0%B6%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80+%D0%BD+%D0%B7%D0%B0%D0%BA%D0%B0%D1%80%D0%BF%D0%B0%D1%82%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+ганнівка тисменицького рн івано франківськ обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%B3%D0%B0%D0%BD%D0%BD%D1%96%D0%B2%D0%BA%D0%B0+%D1%82%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80%D0%BD+%D1%96%D0%B2%D0%B0%D0%BD%D0%BE+%D1%84%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+м.яворів львівський обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D1%8F%D0%B2%D0%BE%D1%80%D1%96%D0%B2+%D0%BB%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+м.ковель волинської обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D0%BA%D0%BE%D0%B2%D0%B5%D0%BB%D1%8C+%D0%B2%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+йоган даних,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%B9%D0%BE%D0%B3%D0%B0%D0%BD+%D0%B4%D0%B0%D0%BD%D0%B8%D1%85&components=&sensor=false&language=&bounds="
+м вінниця вул нагір'я 21ж кв 26,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC+%D0%B2%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8F+%D0%B2%D1%83%D0%BB+%D0%BD%D0%B0%D0%B3%D1%96%D1%80%27%D1%8F+21%D0%B6+%D0%BA%D0%B2+26&components=&sensor=false&language=&bounds="
+полк що м донецьк донецьк це україни,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BF%D0%BE%D0%BB%D0%BA+%D1%89%D0%BE+%D0%BC+%D0%B4%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA+%D0%B4%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA+%D1%86%D0%B5+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8&components=&sensor=false&language=&bounds="
+м.хорол полтавський обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC.%D1%85%D0%BE%D1%80%D0%BE%D0%BB+%D0%BF%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+проживаю в міста бровари працю в місті києві,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D1%8E+%D0%B2+%D0%BC%D1%96%D1%81%D1%82%D0%B0+%D0%B1%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D0%B8+%D0%BF%D1%80%D0%B0%D1%86%D1%8E+%D0%B2+%D0%BC%D1%96%D1%81%D1%82%D1%96+%D0%BA%D0%B8%D1%94%D0%B2%D1%96&components=&sensor=false&language=&bounds="
+м городок проживаю м львів праці,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC+%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA+%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D1%8E+%D0%BC+%D0%BB%D1%8C%D0%B2%D1%96%D0%B2+%D0%BF%D1%80%D0%B0%D1%86%D1%96&components=&sensor=false&language=&bounds="
+бодров турнір,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%B1%D0%BE%D0%B4%D1%80%D0%BE%D0%B2+%D1%82%D1%83%D1%80%D0%BD%D1%96%D1%80&components=&sensor=false&language=&bounds="
+бежен из зоні ато,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%B1%D0%B5%D0%B6%D0%B5%D0%BD+%D0%B8%D0%B7+%D0%B7%D0%BE%D0%BD%D1%96+%D0%B0%D1%82%D0%BE&components=&sensor=false&language=&bounds="
+київська обл м.бровари,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BA%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB+%D0%BC.%D0%B1%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D0%B8&components=&sensor=false&language=&bounds="
+м шостак сум.обл україни,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC+%D1%88%D0%BE%D1%81%D1%82%D0%B0%D0%BA+%D1%81%D1%83%D0%BC.%D0%BE%D0%B1%D0%BB+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8&components=&sensor=false&language=&bounds="
+червоноград львівський обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%87%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4+%D0%BB%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+с.дмитрівка богодухівського р ну харківська обл,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81.%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D1%96%D0%B2%D0%BA%D0%B0+%D0%B1%D0%BE%D0%B3%D0%BE%D0%B4%D1%83%D1%85%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80+%D0%BD%D1%83+%D1%85%D0%B0%D1%80%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB&components=&sensor=false&language=&bounds="
+с оборони долинського району івано франківської області україни,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D1%81+%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%B8+%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D1%83+%D1%96%D0%B2%D0%B0%D0%BD%D0%BE+%D1%84%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%96+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8&components=&sensor=false&language=&bounds="
+м донецька донедавна м.київ наталі,"Error ZERO_RESULTS
+Query: https://maps.google.com/maps/api/geocode/json?region=&address=%D0%BC+%D0%B4%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA%D0%B0+%D0%B4%D0%BE%D0%BD%D0%B5%D0%B4%D0%B0%D0%B2%D0%BD%D0%B0+%D0%BC.%D0%BA%D0%B8%D1%97%D0%B2+%D0%BD%D0%B0%D1%82%D0%B0%D0%BB%D1%96&components=&sensor=false&language=&bounds="
