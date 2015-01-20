@@ -7,14 +7,15 @@
 <body>
 	<div id="downloads"></div>
 		<script type="text/javascript">
-		d3.json('data/reg_by_date.json', function(data) {
+		d3.json('reg_by_date.json', function(data) {
+			data = MG.convert.date(data, 'date');
 		    MG.data_graphic({
 		        title: "UFO Sightings",
 		        description: "Yearly UFO sightings from the year 1945 to 2010.",
 		        data: data,
 		        width: 650,
 		        height: 150,
-		        target: '#ufo-sightings',
+		        target: '#downloads',
 		        x_accessor: 'date',
 		        y_accessor: 'registered',
 		    })
