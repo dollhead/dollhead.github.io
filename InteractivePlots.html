@@ -17,7 +17,6 @@
 		d3.json('reg_by_date.json', function(data) {
 			data = MG.convert.date(data, 'date');
 		    MG.data_graphic({
-		        title: "Кількість зареєстрованих користувачів на Prometheus",
 		        data: data,
 		        width: 650,
 		        height: 150,
