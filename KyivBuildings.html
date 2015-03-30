@@ -10,7 +10,9 @@
     <meta name="author" content="">
 
     <title>Карта будівель Києва</title>
-
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link rel = "stylesheet" href = "css/mapstyle.css"/>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -94,7 +96,17 @@
                     Щоб намалювати <a href="https://api.tiles.mapbox.com/v4/dollhead.uvzcjxur/page.html?access_token=pk.eyJ1IjoiZG9sbGhlYWQiLCJhIjoibUozY3dEVSJ9.isKRiOS-cCgy6I0Es3lmzw#13/50.4506/30.5362">цю</a> мапу нам довелося шукати інформацію на сайтах з оголошеннями про оренду та купівлю квартир. Наш запит до Київської міської державної адміністрації на надання відповідної інформації було передано до Департаменту містобудування та архітектури, але наразі жодної відповіді так і не було отримано.
                 </p>
                 <p>
-                    <iframe width="100%" height="500px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/dollhead.uvzcjxur.html?access_token=pk.eyJ1IjoiZG9sbGhlYWQiLCJhIjoibUozY3dEVSJ9.isKRiOS-cCgy6I0Es3lmzw"></iframe>
+                    <div id="map"></div>
+                     <script type="text/javascript">
+                        var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
+                            [50.3281, 30.3092],
+                            [50.5411, 30.7432]]);
+                        L.tileLayer('http://dollhead.github.io/Tiles/{z}/{x}/{y}.png', {
+                            maxZoom: 15,
+                            minZoom: 11
+                        }).addTo(map);
+                        map.locate({setView: true, maxZoom: 15});
+                     </script>
                 </p>   
                 <p>
                     Як бачите, виглядає вона не настільки наповненою, як попередні мапи. Це й не дивно, адже на карті Києва з OpenStreetMap більше 80 тисяч будівель. Нам вдалося знайти дані лише про 8 тисяч житлових будинків.
