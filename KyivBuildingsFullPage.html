@@ -13,9 +13,12 @@
 		  ga('send', 'pageview');
 
 		</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
-		 <div id="map"></div>
+		 <div id="map">
+            <div id="box"></div>
+		 </div>
 		 <script type="text/javascript">
 		 	var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
 		 		[50.3281, 30.3092],
@@ -25,6 +28,27 @@
 			    minZoom: 11
 			}).addTo(map);
 		 	map.locate({setView: true, maxZoom: 15});
+
+            //Find object on click
+            map.on('click', function (e) {
+                var lat = e.latlng.lat,
+                    lon = e.latlng.lng;
+
+                $.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
+                    {
+                        geocode: lon + "," + lat,
+                        kind: "house",
+                        results: 1,
+                        format: "json"
+                    },
+                    function (json) {
+                        var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
+                        console.log(name);
+                        $("#box").text(name);
+                    });
+            });
+
 		 </script>
+
 	</body>
 </html>
