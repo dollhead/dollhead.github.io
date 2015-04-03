@@ -1,8 +1,10 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-		<link rel = "stylesheet" href = "css/mapstyle.fullpage.css"/>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <link rel="stylesheet" href="css/mapstyle.fullpage.css"/>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,9 +15,63 @@
 		  ga('send', 'pageview');
 
 		</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
 	<body>
 		 <div id="map"></div>
+         <div id="box">
+             <div id="legend">
+                 <h2>Легенда</h2>
+                 <table>
+                     <tbody>
+                     <tr>
+                         <td class="key color1"></td>
+                         <td class="value first"><1915</td>
+                         <td class="key color7"></td>
+                         <td class="value">1970 - 1980</td>
+                     </tr>
+                     <tr>
+                         <td class="key color2"></td>
+                         <td class="value first">1915-1925</td>
+                         <td class="key color8"></td>
+                         <td class="value">1980-1990</td>
+                     </tr>
+                     <tr>
+                         <td class="key color3"></td>
+                         <td class="value first">1925-1940</td>
+                         <td class="key color9"></td>
+                         <td class="value">1990-2000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color4"></td>
+                         <td class="value first">1940-1950</td>
+                         <td class="key color10"></td>
+                         <td class="value">2000-2005</td>
+                     </tr>
+                     <tr>
+                         <td class="key color5"></td>
+                         <td class="value first">1950-1960</td>
+                         <td class="key color11"></td>
+                         <td class="value"><2005</td>
+                     </tr>
+                     <tr>
+                         <td class="key color6"></td>
+                         <td class="value first">1960-1970</td>
+                         <td></td><td></td>
+                     </tr>
+                     </tbody>
+                 </table>
+             </div>
+             <div id="data">
+                 <h2>Дані</h2>
+                 <table>
+                     <tbody>
+                        <tr></td> <td><td><span class="help">(клікніть по будинку)</span></td></tr>
+                        <tr><td>Адреса: </td> <td id="address-val"></td></tr>
+                     </tbody>
+                 </table>
+             </div>
+         </div>
 		 <script type="text/javascript">
 		 	var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
 		 		[50.3281, 30.3092],
@@ -25,6 +81,24 @@
 			    minZoom: 11
 			}).addTo(map);
 		 	map.locate({setView: true, maxZoom: 15});
+
+            //Find object on click
+            map.on('click', function (e) {
+                var lat = e.latlng.lat,
+                    lon = e.latlng.lng;
+
+                $.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
+                    {
+                        geocode: lon + "," + lat,
+                        kind: "house",
+                        results: 1,
+                        format: "json"
+                    },
+                    function (json) {
+                        var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
+                        $("#address-val").text(name);
+                    });
+            });
 		 </script>
 	</body>
 </html>
