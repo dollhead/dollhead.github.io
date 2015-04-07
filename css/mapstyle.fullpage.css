@@ -9,7 +9,7 @@ html, body, #map {
     height: 100%;
 }
 
-#box {
+#box, .boxclass {
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
@@ -21,7 +21,7 @@ html, body, #map {
     top: 20px;
     width: 230px;
 }
-#box h2 {
+#box, .boxclass h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
