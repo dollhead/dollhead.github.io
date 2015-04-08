@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "KyivBuildingsPrice", 
+    "center": "30.5509,50.4411,11", 
+    "bounds": "30.3161,50.3378,30.7549,50.542", 
+    "minzoom": "11", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "15", 
+    "name": "KyivBuildingsPrice"
+}
