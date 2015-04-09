@@ -21,7 +21,9 @@
 		  ga('send', 'pageview');
 
 		</script>
+        <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	</head>
 	<body>
 		 <div id="map"></div>
@@ -74,11 +76,18 @@
                      <tbody>
                         <tr></td> <td><td><span class="help">(клікніть по будинку)</span></td></tr>
                         <tr><td>Адреса: </td> <td id="address-val"></td></tr>
+                        <tr><td>Медіана m<sup>2</sup>: </td> <td id="median-val"></td></tr>
                      </tbody>
                  </table>
              </div>
+             <!--<a id="more_link"> Детальніше...</a>-->
+             <div id="histogram">
+                 <div id="chart_div" style="width: 220px; height: 300px;"></div>
+             </div>
+
          </div>
 		 <script type="text/javascript">
+             var h_data = [];
 		 	var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
 		 		[50.3281, 30.3092],
 		 		[50.5411, 30.7432]]);
@@ -101,7 +110,11 @@
 			L.control.fullscreen().addTo(map);
 
 			//Legend control: http://leafletjs.com/examples/choropleth.html
-			
+
+            $(document).ready(function() {
+                Parse.initialize("V1zs2pK88Po9XhEipDGkO0hYRzFjYPDJbZxE4jqk", "HWEk9coRYOLTRsIaBqyv7T6LqHVpiIPKCf1HXZko");
+            });
+
             //Find object on click
             map.on('click', function (e) {
                 var lat = e.latlng.lat,
@@ -116,9 +129,57 @@
                     },
                     function (json) {
                         var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
+                        var full_name = json.response.GeoObjectCollection.featureMember[0].GeoObject.metaDataProperty.GeocoderMetaData.text;
                         $("#address-val").text(name);
+                        $("#median-val").text("");
+                        $("#chart_div").text("");
+                        //request to Parse
+                        var BuildingPriceInfo = Parse.Object.extend("BuildingPriceInfo");
+                        var query = new Parse.Query(BuildingPriceInfo);
+                        query.equalTo("a_t", full_name);
+                        query.first({
+                            success: function (obj) {
+                                if (!obj) return;
+                                console.log(obj);
+                                var median = obj.get("med");
+                                var collection = obj.get('c');
+                                console.log(collection);
+                                $("#median-val").text("$ " + median + " (" + collection.length + " об.)");
+
+                                var prices = collection.map(function (o) {
+                                    return o.ppm;
+                                });
+
+                                h_data = collection.map(function (o) {
+                                    return [o.o_id, o.ppm];
+                                });
+
+                                drawChart(h_data);
+
+                                console.log(prices);
+                            },
+                            error: function (error) {
+                                console.log("Error: " + error.code + " " + error.message);
+                            }
+                        });
                     });
             });
+            
+            google.load("visualization", "1", {packages:["corechart"]});
+
+            function drawChart(h_data) {
+                h_data.unshift(['id', 'ppm']);
+                var data = google.visualization.arrayToDataTable(h_data);
+
+                var options = {
+                    title: 'Ціни в $ / м2',
+                    legend: { position: 'none' }
+                };
+
+                var chart = new google.visualization.Histogram(document.getElementById('chart_div'));
+                chart.draw(data, options);
+            }
+             
 		 </script>
 	</body>
 </html>
