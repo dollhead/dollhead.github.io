@@ -144,14 +144,14 @@
                                 var median = obj.get("med");
                                 var collection = obj.get('c');
                                 console.log(collection);
-                                $("#median-val").text("$ " + median + " (" + collection.length + " об.)");
+                                $("#median-val").html("<b>$ " + median + " (" + collection.length + " об.</b>)");
 
                                 var prices = collection.map(function (o) {
                                     return o.ppm;
                                 });
 
                                 h_data = collection.map(function (o) {
-                                    return [o.o_id, o.ppm];
+                                    return ["", o.ppm];
                                 });
 
                                 drawChart(h_data);
@@ -168,7 +168,7 @@
             google.load("visualization", "1", {packages:["corechart"]});
 
             function drawChart(h_data) {
-                h_data.unshift(['id', 'ppm']);
+                h_data.unshift(['id', '$ ']);
                 var data = google.visualization.arrayToDataTable(h_data);
 
                 var options = {
