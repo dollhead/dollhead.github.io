@@ -1,0 +1,147 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,freesans,sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+}
+
+#box, .boxclass {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 230px;
+}
+#box, .boxclass h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.help {
+    color: #999;
+    font-size: 90%;
+    font-weight: normal;
+    padding-left: 10px;
+}
+/*#box h2 {*/
+    /*font-size: 24px;*/
+    /*font-style: italic;*/
+    /*margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+/*}*/
+
+
+/*#box {*/
+/*position: absolute;*/
+/*bottom: 20px;*/
+/*right: 20px;*/
+/*width: 100px;*/
+/*height: 100px;*/
+/*padding: 10;*/
+/*margin: 0;*/
+/*border: 3px solid white;*/
+/*z-index: 10;*/
+/*background-color: rgba(25, 20, 21, 0.9);*/
+/*color: white;*/
+/*}*/
+
+.color1 {
+    background-color: #313695;
+}
+
+.color2 {
+    background-color: #4575B4;
+}
+
+.color3 {
+    background-color: #74ADD1;
+}
+
+.color4 {
+    background-color: #ABD9E9;
+}
+
+.color5 {
+    background-color: #E0F3F8;
+}
+
+.color6 {
+    background-color: #FFFFBF;
+}
+
+.color7 {
+    background-color: #FEE090;
+}
+
+.color8 {
+    background-color: #FDAE61;
+}
+
+.color9 {
+    background-color: #F46D43;
+}
+
+.color10 {
+    background-color: #D73027;
+}
+
+.color11 {
+    background-color: #A50026;
+}
+
+#legend table tr td {
+    align: left;
+    text-align: left;
+}
+
+td {
+    white-space: nowrap
+}
+
+.data-table tr td {
+    height: 1.4em;
+    line-height: 1.4em;
+}
+
+.data-table {
+    border-collapse: collapse;
+}
+
+.data-table tr td {
+}
+
+.data-table tr td.value {
+    width: 99%;
+    text-align: left;
+    padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.key {
+    text-align: right;
+}
+
+#legend table tr td.key {
+    width: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#legend table tr td.value {
+    padding-left: 8px;
+}
+
+#legend table tr td.value.first {
+    padding-right: 15px;
+}
