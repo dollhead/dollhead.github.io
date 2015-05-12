@@ -147,7 +147,6 @@
 
                     });
             });
-           
 			function LocateToAddress(address) {
 				$.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
                     {
@@ -156,8 +155,8 @@
                         format: "json"
                     },
             	function (json) {
-                	var pos = json.response.GeoObjectCollection.featureMember[0].GeoObject.pos.split(" ");
-					map.setView([pos[0], pos[1]], 13);
+                	var pos = json.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos.split(" ");
+					map.setView([pos[1], pos[0]], 13);
            		});
 			}
 		 </script>
