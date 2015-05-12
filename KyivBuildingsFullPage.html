@@ -147,9 +147,21 @@
 
                     });
             });
-           function Locate() {
-           	map.setView([50.4500, 30.5000],13)
-           }
-		 </script>
-	</body>
+           function LocateToCoord(lat, lng) {
+           	map.setView([lat,lng],13)
+			function LocateToCoord(lat, lng) {
+				map.setView([lat, lng], 13);
+			}
+			function LocateToAddress(address) {
+				$.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
+                    {
+                        geocode: "Киев" + address,
+                        results: 1,
+                        format: "json"
+                    }),
+            	function (json) {
+                	var pos = json.response.GeoObjectCollection.featureMember[0].GeoObject.pos.split(" ");
+					LocateToCoord(pos[0],pos[1]);
+           		}
+			}
 </html>
