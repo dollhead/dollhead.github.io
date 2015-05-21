@@ -61,6 +61,10 @@ function LocateToAddress(address) {
         },
     function (json) {
         var pos = json.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos.split(" ");
-        map.setView([pos[1], pos[0]], 15);
+        LocateToCoords(pos[1], pos[0]);
     });
+}
+
+function LocateToCoords(lat, lng) {
+    map.setView([lat, lng], 15);
 }
