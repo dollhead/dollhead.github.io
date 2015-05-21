@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
         <meta charset='utf-8'>
@@ -11,16 +11,7 @@
 		<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
 		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
         <link rel="stylesheet" href="css/mapstyle.fullpage.css"/>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-60767882-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
+		<script src="js/googleAnalytics.js"></script>
         <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	</head>
@@ -80,85 +71,6 @@
                  </table>
              </div>
          </div>
-		 <script type="text/javascript">
-           
-		 	var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
-		 		[50.3281, 30.3092],
-		 		[50.5411, 30.7432]]);
-		 	L.tileLayer('Tiles/{z}/{x}/{y}.png', {
-			    maxZoom: 15,
-			    minZoom: 11
-			}).addTo(map);
-			L.control.locate({
-			    position: 'topleft',  // set the location of the control
-			    drawCircle: true,  // controls whether a circle is drawn that shows the uncertainty about the location
-			    follow: false,  // follow the user's location
-
-			    showPopup: false, // display a popup when the user click on the inner marker
-			    strings: {
-			        title: "Показати моє місцезнаходження",  // title of the locate control
-			        outsideMapBoundsMsg: "Отакої! Ви знаходитеся поза межами цієї карти." // default message for onLocationOutsideMapBounds
-			    },
-			    locateOptions: {}  // define location options e.g enableHighAccuracy: true or maxZoom: 10
-			}).addTo(map);
-			L.control.fullscreen().addTo(map);
-
-			//Legend control: http://leafletjs.com/examples/choropleth.html
-
-            $(document).ready(function() {
-                Parse.initialize("V1zs2pK88Po9XhEipDGkO0hYRzFjYPDJbZxE4jqk", "HWEk9coRYOLTRsIaBqyv7T6LqHVpiIPKCf1HXZko");
-            });
-
-            //Find object on click
-            map.on('click', function (e) {
-                var lat = e.latlng.lat,
-                    lon = e.latlng.lng;
-
-                $.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
-                    {
-                        geocode: lon + "," + lat,
-                        kind: "house",
-                        results: 1,
-                        format: "json"
-                    },
-                    function (json) {
-                        var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
-                        var full_name = json.response.GeoObjectCollection.featureMember[0].GeoObject.metaDataProperty.GeocoderMetaData.text;
-                        $("#address-val").text(name);
-                        $("#year-val").text('');
-
-                        //request to Parse
-                        var UniqueBuilding = Parse.Object.extend("UniqueBuilding");
-                        var query = new Parse.Query(UniqueBuilding);
-                        query.equalTo("address_text", full_name);
-                        query.first({
-                            success: function(obj) {
-                                if (!obj) return;
-                                console.log(obj);
-                                var year = obj.get('year');
-                                $("#year-val").text(year);
-
-                            },
-                            error: function(error) {
-                                console.log("Error: " + error.code + " " + error.message);
-                            }
-                        });
-
-
-                    });
-            });
-			function LocateToAddress(address) {
-				$.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
-                    {
-                        geocode: "Киев " + address,
-                        results: 1,
-                        format: "json"
-                    },
-            	function (json) {
-                	var pos = json.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos.split(" ");
-					map.setView([pos[1], pos[0]], 15);
-           		});
-			}
-		 </script>
+		 <script type="text/javascript" src="js/mapYears.js"></script>
 	</body>
 </html>
