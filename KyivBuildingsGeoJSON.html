@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
+
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/mapstyle.fullpage.css" />
+    <script src="js/googleAnalytics.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="box">
+        <div id="legend">
+            <h2>Легенда</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="key color1"></td>
+                        <td class="value first"><1915</td>
+                        <td class="key color7"></td>
+                        <td class="value">1970 - 1980</td>
+                    </tr>
+                    <tr>
+                        <td class="key color2"></td>
+                        <td class="value first">1915-1925</td>
+                        <td class="key color8"></td>
+                        <td class="value">1980-1990</td>
+                    </tr>
+                    <tr>
+                        <td class="key color3"></td>
+                        <td class="value first">1925-1940</td>
+                        <td class="key color9"></td>
+                        <td class="value">1990-2000</td>
+                    </tr>
+                    <tr>
+                        <td class="key color4"></td>
+                        <td class="value first">1940-1950</td>
+                        <td class="key color10"></td>
+                        <td class="value">2000-2005</td>
+                    </tr>
+                    <tr>
+                        <td class="key color5"></td>
+                        <td class="value first">1950-1960</td>
+                        <td class="key color11"></td>
+                        <td class="value"><2005</td>
+                    </tr>
+                    <tr>
+                        <td class="key color6"></td>
+                        <td class="value first">1960-1970</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="data">
+            <h2>Дані</h2>
+            <table>
+                <tbody>
+                    <tr></td> <td><td><span class="help">(клікніть по будинку)</span></td></tr>
+                    <tr><td>Адреса: </td> <td id="address-val"></td></tr>
+                    <tr><td>Рік: </td> <td id="year-val"></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/mapYearsGeojson.js"></script>
+</body>
+</html>
