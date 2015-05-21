@@ -7,17 +7,17 @@ $.getJSON("../PriceForBuildings.geojson", function (data) {
     L.geoJson(data, {
         style: function(building) {
             var price = building.properties.MEDmed;
-            if (price < 800) return { color: "#313695" };
-            else if (price < 1000) return { color: "#4575B4" };
-            else if (price < 1250) return { color: "#74ADD1" };
-            else if (price < 1500) return { color: "#ABD9E9" };
-            else if (price < 2000) return { color: "#E0F3F8" };
-            else if (price < 2500) return { color: "#FFFFBF" };
-            else if (price < 3000) return { color: "#FEE090" };
-            else if (price < 4000) return { color: "#FDAE61" };
-            else if (price < 5000) return { color: "#F46D43" };
-            else if (price < 7000) return { color: "#D73027" };
-            else if (price > 7000) return { color: "#A50026" };
+            if (price < 800) return { color: "#313695", opacity: 1 };
+            else if (price < 1000) return { color: "#4575B4", opacity: 1 };
+            else if (price < 1250) return { color: "#74ADD1", opacity: 1 };
+            else if (price < 1500) return { color: "#ABD9E9", opacity: 1 };
+            else if (price < 2000) return { color: "#E0F3F8", opacity: 1 };
+            else if (price < 2500) return { color: "#FFFFBF", opacity: 1 };
+            else if (price < 3000) return { color: "#FEE090", opacity: 1 };
+            else if (price < 4000) return { color: "#FDAE61", opacity: 1 };
+            else if (price < 5000) return { color: "#F46D43", opacity: 1 };
+            else if (price < 7000) return { color: "#D73027", opacity: 1 };
+            else if (price > 7000) return { color: "#A50026", opacity: 1 };
             return { color: "#d3d3d3" }
         }
     }).addTo(map);
