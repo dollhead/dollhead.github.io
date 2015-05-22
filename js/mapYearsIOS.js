@@ -36,21 +36,30 @@ map.on('click', function (e) {
             var UniqueBuilding = Parse.Object.extend("UniqueBuilding");
             var query = new Parse.Query(UniqueBuilding);
             query.equalTo("address_text", full_name);
+
+            // JavaScript to send an action to your Objective-C code
+            var myAppName = 'iosKB';
+            var myActionType = 'buildingClick';
+            var myActionParameters = {address: full_name, year:""}; // put extra info into a dict if you need it
+
             query.first({
                 success: function (obj) {
                     if (!obj) return;
                     console.log(obj);
                     var year = obj.get('year');
-                    $("#year-val").text(year);
-
+                    myActionParameters.year = year;
                 },
                 error: function (error) {
                     console.log("Error: " + error.code + " " + error.message);
                 }
             });
-
-
+            // (separating the actionType from parameters makes it easier to parse in ObjC.)
+            var jsonString = (JSON.stringify(myActionParameters));
+            var escapedJsonParameters = escape(jsonString);
+            var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
+            document.location.href = url;
         });
+        
 });
 function LocateToAddress(address) {
     $.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
