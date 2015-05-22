@@ -38,7 +38,7 @@ map.on('click', function (e) {
             query.equalTo("address_text", full_name);
 
             // JavaScript to send an action to your Objective-C code
-            var myAppName = 'iosKB';
+            var myAppName = 'http://dollhead.github.io/KyivBuildingsForIOS';
             var myActionType = 'buildingClick';
             var myActionParameters = {address: full_name, year:""}; // put extra info into a dict if you need it
 
