@@ -8,7 +8,8 @@ L.tileLayer('Tiles/{z}/{x}/{y}.png', {
     detectRetina: true
 }).addTo(map);
 
-
+var nameBuilding;
+var year;
 //Parse service
 $(document).ready(function () {
     Parse.initialize("V1zs2pK88Po9XhEipDGkO0hYRzFjYPDJbZxE4jqk", "HWEk9coRYOLTRsIaBqyv7T6LqHVpiIPKCf1HXZko");
@@ -28,26 +29,23 @@ map.on('click', function (e) {
         },
         function (json) {
             var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
-            var full_name = json.response.GeoObjectCollection.featureMember[0].GeoObject.metaDataProperty.GeocoderMetaData.text;
-            $("#address-val").text(name);
-            $("#year-val").text('');
-
+            var nameBuilding = json.response.GeoObjectCollection.featureMember[0].GeoObject.metaDataProperty.GeocoderMetaData.text;
             //request to Parse
             var UniqueBuilding = Parse.Object.extend("UniqueBuilding");
             var query = new Parse.Query(UniqueBuilding);
-            query.equalTo("address_text", full_name);
+            query.equalTo("address_text", nameBuilding);
 
             // JavaScript to send an action to your Objective-C code
-            var myAppName = 'ios://dollhead.github.io/KyivBuildingsForIOS';
-            var myActionType = 'buildingClick';
-            var myActionParameters = {address: full_name, year:""}; // put extra info into a dict if you need it
+            //var myAppName = 'ios://dollhead.github.io/KyivBuildingsForIOS';
+            //var myActionType = 'buildingClick';
+            //var myActionParameters = {address: full_name, year:""}; // put extra info into a dict if you need it
 
             query.first({
                 success: function (obj) {
                     if (!obj) return;
                     console.log(obj);
-                    var year = obj.get('year');
-                    myActionParameters.year = year;
+                    year = obj.get('year');
+                    //myActionParameters.year = year;
                 },
                 error: function (error) {
                     console.log("Error: " + error.code + " " + error.message);
@@ -58,7 +56,7 @@ map.on('click', function (e) {
             //var escapedJsonParameters = escape(jsonString);
             //var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
             //window.location = url;
-            window.location.hash = myActionParameters;
+            window.location.hash = "building_data";
         });
         
 });
@@ -77,4 +75,8 @@ function LocateToAddress(address) {
 
 function LocateToCoords(lat, lng) {
     map.setView([lat, lng], 15);
+}
+
+function lastBuilding() {
+    return { "name": nameBuilding, "year": year };
 }
