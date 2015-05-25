@@ -54,10 +54,11 @@ map.on('click', function (e) {
                 }
             });
             // (separating the actionType from parameters makes it easier to parse in ObjC.)
-            var jsonString = (JSON.stringify(myActionParameters));
-            var escapedJsonParameters = escape(jsonString);
-            var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
-            window.location = url;
+            //var jsonString = (JSON.stringify(myActionParameters));
+            //var escapedJsonParameters = escape(jsonString);
+            //var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
+            //window.location = url;
+            window.location.hash = myActionParameters;
         });
         
 });
