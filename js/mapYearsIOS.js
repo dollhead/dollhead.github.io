@@ -57,7 +57,7 @@ map.on('click', function (e) {
             var jsonString = (JSON.stringify(myActionParameters));
             var escapedJsonParameters = escape(jsonString);
             var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
-            document.location.href = url;
+            window.location = url;
         });
         
 });
