@@ -8,8 +8,6 @@ L.tileLayer('Tiles/{z}/{x}/{y}.png', {
     detectRetina: true
 }).addTo(map);
 
-var nameBuilding;
-var year;
 //Parse service
 $(document).ready(function () {
     Parse.initialize("V1zs2pK88Po9XhEipDGkO0hYRzFjYPDJbZxE4jqk", "HWEk9coRYOLTRsIaBqyv7T6LqHVpiIPKCf1HXZko");
@@ -44,7 +42,8 @@ map.on('click', function (e) {
                 success: function (obj) {
                     if (!obj) return;
                     console.log(obj);
-                    year = obj.get('year');
+                    var year = obj.get('year');
+                    $("#year").text(year);
                     //myActionParameters.year = year;
                 },
                 error: function (error) {
@@ -78,5 +77,5 @@ function LocateToCoords(lat, lng) {
 }
 
 function lastBuilding() {
-    return "#name:" + nameBuilding + "#year:" + year;
+    return $("#year").text();
 }
