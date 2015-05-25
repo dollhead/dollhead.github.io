@@ -78,5 +78,5 @@ function LocateToCoords(lat, lng) {
 }
 
 function lastBuilding() {
-    return { "name": nameBuilding, "year": year };
+    return "#name:" + nameBuilding + "#year:" + year;
 }
