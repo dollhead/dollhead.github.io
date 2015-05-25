@@ -55,7 +55,7 @@ map.on('click', function (e) {
             //var escapedJsonParameters = escape(jsonString);
             //var url = myAppName + '://' + myActionType + "#" + escapedJsonParameters;
             //window.location = url;
-            window.location.hash = "building_data";
+            window.location.hash = "#building_data";
         });
         
 });
