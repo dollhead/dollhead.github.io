@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
+		
+		<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+		<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+        <link rel="stylesheet" href="css/mapstyle.fullpage.price.css.css"/>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60767882-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+        <script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	</head>
+	<body>
+		 <div id="map"></div>
+         <div id="box">
+             <div id="legend">
+                 <h2>Легенда</h2>
+                 <table>
+                     <tbody>
+                     <tr>
+                         <td class="key color1"></td>
+                         <td class="value first">< 800</td>
+                         <td class="key color7"></td>
+                         <td class="value"> 2500 - 3000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color2"></td>
+                         <td class="value first">800 - 1000</td>
+                         <td class="key color8"></td>
+                         <td class="value">3000 - 4000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color3"></td>
+                         <td class="value first">1000 - 1250</td>
+                         <td class="key color9"></td>
+                         <td class="value">4000 - 5000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color4"></td>
+                         <td class="value first">1250 - 1500</td>
+                         <td class="key color10"></td>
+                         <td class="value">5000 - 7000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color5"></td>
+                         <td class="value first">1500 - 2000</td>
+                         <td class="key color11"></td>
+                         <td class="value"> > 7000</td>
+                     </tr>
+                     <tr>
+                         <td class="key color6"></td>
+                         <td class="value first">2000 - 2500</td>
+                         <td></td><td></td>
+                     </tr>
+                     </tbody>
+                 </table>
+             </div>
+             <div id="data">
+                 <h2>Дані</h2>
+                 <table>
+                     <tbody>
+                        <tr></td> <td><td><span class="help">(клікніть по будинку)</span></td></tr>
+                        <tr><td>Адреса: </td> <td id="address-val"></td></tr>
+                        <tr><td>Медіана m<sup>2</sup>: </td> <td id="median-val"></td></tr>
+                     </tbody>
+                 </table>
+             </div>
+             <!--<a id="more_link"> Детальніше...</a>-->
+             <div id="histogram">
+                 <div id="chart_div" style="width: 220px; height: 300px;"></div>
+             </div>
+
+         </div>
+		 <script type="text/javascript">
+             var h_data = [];
+		 	var map = L.map('map').setView([50.4500, 30.5000],13).setMaxBounds([
+		 		[50.3281, 30.3092],
+		 		[50.5411, 30.7432]]);
+		 	L.tileLayer('PriceTiles/{z}/{x}/{y}.png', {
+			    maxZoom: 15,
+			    minZoom: 11
+			}).addTo(map);
+			L.control.locate({
+			    position: 'topleft',  // set the location of the control
+			    drawCircle: true,  // controls whether a circle is drawn that shows the uncertainty about the location
+			    follow: false,  // follow the user's location
+
+			    showPopup: false, // display a popup when the user click on the inner marker
+			    strings: {
+			        title: "Показати моє місцезнаходження",  // title of the locate control
+			        outsideMapBoundsMsg: "Отакої! Ви знаходитеся поза межами цієї карти." // default message for onLocationOutsideMapBounds
+			    },
+			    locateOptions: {}  // define location options e.g enableHighAccuracy: true or maxZoom: 10
+			}).addTo(map);
+			L.control.fullscreen().addTo(map);
+
+			//Legend control: http://leafletjs.com/examples/choropleth.html
+
+            $(document).ready(function() {
+                Parse.initialize("V1zs2pK88Po9XhEipDGkO0hYRzFjYPDJbZxE4jqk", "HWEk9coRYOLTRsIaBqyv7T6LqHVpiIPKCf1HXZko");
+            });
+
+            //Find object on click
+            map.on('click', function (e) {
+                var lat = e.latlng.lat,
+                    lon = e.latlng.lng;
+
+                $.getJSON("http://geocode-maps.yandex.ru/1.x/?callback=?",
+                    {
+                        geocode: lon + "," + lat,
+                        kind: "house",
+                        results: 1,
+                        format: "json"
+                    },
+                    function (json) {
+                        var name = json.response.GeoObjectCollection.featureMember[0].GeoObject.name;
+                        var full_name = json.response.GeoObjectCollection.featureMember[0].GeoObject.metaDataProperty.GeocoderMetaData.text;
+                        $("#address-val").text(name);
+                        $("#median-val").text("");
+                        $("#chart_div").text("");
+                        //request to Parse
+                        var BuildingPriceInfo = Parse.Object.extend("BuildingPriceInfo");
+                        var query = new Parse.Query(BuildingPriceInfo);
+                        query.equalTo("a_t", full_name);
+                        query.first({
+                            success: function (obj) {
+                                if (!obj) return;
+                                console.log(obj);
+                                var median = obj.get("med");
+                                var collection = obj.get('c');
+                                console.log(collection);
+                                $("#median-val").text("$ " + median + " (" + collection.length + " об.)");
+
+                                var prices = collection.map(function (o) {
+                                    return o.ppm;
+                                });
+
+                                h_data = collection.map(function (o) {
+                                    return [o.o_id, o.ppm];
+                                });
+
+                                drawChart(h_data);
+
+                                console.log(prices);
+                            },
+                            error: function (error) {
+                                console.log("Error: " + error.code + " " + error.message);
+                            }
+                        });
+                    });
+            });
+            
+            google.load("visualization", "1", {packages:["corechart"]});
+
+            function drawChart(h_data) {
+                h_data.unshift(['id', 'ppm']);
+                var data = google.visualization.arrayToDataTable(h_data);
+
+                var options = {
+                    title: 'Ціни в $ / м2',
+                    legend: { position: 'none' }
+                };
+
+                var chart = new google.visualization.Histogram(document.getElementById('chart_div'));
+                chart.draw(data, options);
+            }
+             
+		 </script>
+	</body>
+</html>
