@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Карта будівель Києва</title>
+    <link rel = "stylesheet" href = "css/mapstyle.css"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60767882-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Kyiv buildings history</h1>
+                        <p class="intro-text">Карта будівель Києва з датами будівництва<br>(Попередня версія)</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="container content-section ">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Про проект</h2>
+                <p>
+                    Подібні карти існують для багатьох міст світу.
+                    <a href = "http://code.waag.org/buildings/">Ось</a>
+                    наприклад карта будівель Амстердаму.
+
+                </p>
+
+                <p>
+                    <img src="img/Amsterdam.jpg">
+                </p>
+                <p>
+                    А <a href = "http://bklynr.com/block-by-block-brooklyns-past-and-present/">це</a> така ж карта для Брукліну
+
+                </p>
+                 <p>
+                    <img src="img/BrooklynIm.jpg">
+                </p>       
+                <p>
+                    Такі проекти дають змогу краще зрозуміти місто,
+                    побачити історію його розбудови.
+                </p> 
+                <p>
+                    В розвинених країнах настільки детальні карти стали
+                    можливі завдяки наявності відкритих даних про будівлі міста. Україна ж знаходиться лише на початку довгого шляху до справжньої доступності публічної інформації. 
+                </p>    
+                <p>
+                    Щоб намалювати <a href="http://dollhead.github.io/KyivBuildingsFullPage">цю</a> мапу нам довелося шукати інформацію на сайтах з оголошеннями про оренду та купівлю квартир. Наш запит до Київської міської державної адміністрації на надання відповідної інформації було передано до Департаменту містобудування та архітектури, але наразі жодної відповіді так і не було отримано.
+                </p>
+                <p>
+                    <iframe src="LvivBuildingsFullPage.html" width="100%" height="500px" allowfullscreen></iframe>
+                </p>   
+                <p>
+                    Як бачите, виглядає вона не настільки наповненою, як попередні мапи. Це й не дивно, адже на карті Києва з OpenStreetMap більше 80 тисяч будівель. Нам вдалося знайти дані лише про 8 тисяч житлових будинків.
+                </p>
+                <p>
+                    Сподіваємося, що колись на цій карті все ж будуть всі будівлі Києва. А колись, можливо, ми зможемо зробити такі ж карти для всіх міст України.
+                </p>
+                <p>
+                    В наших планах зробити аналіз і візуалізацію зібраних даних, а також створити карту, де кожен міг би вказати рік будівництва свого будинка.
+                </p>
+                <p>
+                    Автори: <a href="https://www.facebook.com/vadymskliarov">Вадим Скляров</a> та <a href="https://vk.com/executeinstaller">Влад Герасименко</a>
+                    Будемо вдячні за пропозиції та критику. Надсилайте відгуки за адресою: sklyarov.vadym@gmail.com або ж пишіть приватні повідомлення нам у соцмережах.
+                </p>
+                <p>
+                    Далі буде.
+                </p>
+                <p>
+                    <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                        /* * * CONFIGURATION VARIABLES * * */
+                        var disqus_shortname = 'kyivbuildingswithyear';
+                        
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
