@@ -1,0 +1,9 @@
+{
+    "description": "LvivBuildings", 
+    "bounds": "23.7538,49.6954,24.3237,49.9629", 
+    "minzoom": "11", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "19", 
+    "name": "LvivBuildings"
+}
