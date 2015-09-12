@@ -3,16 +3,15 @@ body {
     font-size: 12px;
     padding: 0;
     margin: 0;
+    color: #000;
 }
 
 html, body, #map {
     height: 100%;
 }
 
-#box_container {
-    width: 100%;
-    border: 1px solid green;
-    background: yellow;
+.legend-col {
+    float:left;
 }
 
 #box {
@@ -25,7 +24,7 @@ html, body, #map {
     position: absolute;
     right: 20px;
     top: 20px;
-    width: 230px;
+    width: 225px;
 }
 #box h4 {
     margin-left: auto;
@@ -41,15 +40,19 @@ html, body, #map {
 }
 
 #legend table{
+    padding-left: 5px;
+    padding-right: 5px;
     border-collapse: separate;
     border-spacing: 1px;
 }
 
 #legend table tr td {
-    /*align: left;*/
     text-align: left;
-    padding: 1px;
-    margin: 1px;
+    line-height: 20px;
+    /*padding: 1px;*/
+    /*margin: 1px;*/
+    display:inline-block;
+    height:20px;
 }
 
 td {
@@ -64,15 +67,19 @@ td {
 }
 
 #legend table tr td.value {
-    padding-left: 8px;
+    /*padding-left: 8px;*/
 }
 
 #legend table tr td.value.first {
-    padding-right: 15px;
+    /*padding-right: 15px;*/
 }
 
 .textright {
     text-align: right;
+}
+
+#data {
+    display: inline-block;
 }
 /*.data-table {*/
     /*border-collapse: collapse;*/
