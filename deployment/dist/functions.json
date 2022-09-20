@@ -6,28 +6,53 @@
             "name": "DECLINE",
             "parameters": [
                 {
-                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "description": "one of the following: genitive, dative, accusative, ablative, locative, vocative",
                     "name": "grammaticalCase",
                     "type": "string"
                 },
                 {
-                    "description": "of the following: male, female",
+                    "description": "one of the following: male, female",
                     "name": "gender",
                     "type": "string"
                 },
                 {
-                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "description": "Last name",
                     "name": "lastName",
                     "type": "string"
                 },
                 {
-                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "description": "First name",
                     "name": "firstName",
                     "type": "string"
                 },
                 {
-                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "description": "Middle name",
                     "name": "middleName",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Decline ukrainian fullname.",
+            "id": "DECLINEFULLNAME",
+            "name": "DECLINEFULLNAME",
+            "parameters": [
+                {
+                    "description": "one of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "name": "grammaticalCase",
+                    "type": "string"
+                },
+                {
+                    "description": "one of the following: male, female",
+                    "name": "gender",
+                    "type": "string"
+                },
+                {
+                    "description": "Full name",
+                    "name": "fullName",
                     "type": "string"
                 }
             ],
