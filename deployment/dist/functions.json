@@ -1,0 +1,39 @@
+{
+    "functions": [
+        {
+            "description": "Decline ukrainian anthroponym.",
+            "id": "DECLINE",
+            "name": "DECLINE",
+            "parameters": [
+                {
+                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "name": "grammaticalCase",
+                    "type": "string"
+                },
+                {
+                    "description": "of the following: male, female",
+                    "name": "gender",
+                    "type": "string"
+                },
+                {
+                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "name": "lastName",
+                    "type": "string"
+                },
+                {
+                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "name": "firstName",
+                    "type": "string"
+                },
+                {
+                    "description": "of the following: genitive, dative, accusative, ablative, locative, vocative",
+                    "name": "middleName",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
